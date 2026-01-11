@@ -1,0 +1,62 @@
+---
+title: "Pesquisa Nacional Pela Mobilidade Por Bicicletas"
+subtitle: "Perfil Estatístico do Ciclista Paraense 2026"
+author: "Mario Diego Rocha Valente"
+format: 
+  typst:
+    toc: true
+    toc-depth: 3
+    toc-title: Sumário
+    section-numbering: 1.1.a
+    number-sections: true
+    columns: 1
+---
+
+
+
+
+
+## Introdução
+
+## Objetivo e Escopo
+
+O objetivo principal deste projeto é pesquisar por meio de um levantamento de campo as motivaçoes, hábitos e características sociodemográticas dos usuários de bicicleta no ambiente urbano.
+
+
+## Amostragem e Metodologia de Campo
+
+### População Alvo
+
+Nesta pesquisa a população-alvo são usuários de bicicletas com mais de 12 anos de idade, que as utilizem como modo de transporte pelo menos uma vez por semana, que estejam utilizando, estacionando ou empurrando uma bicicleta.
+
+
+Conceitualmente a população alvo é a população sobre a qual deseja-se obter informações e a população de pesquisa é a que será realmente coberta pela pesquisa. No entanto, por causa da natureza da pesquisa é possível entre se utilize métodos diretos de amostragem probabilísticas para a seleção dos entrevistados. Isto se deve a inexistência de cadastros com a informação sobre usuários de bicicleta, como por exemplo, usuários por domicílio em uma determinada região.
+
+
+### Tamanho da Amostra
+
+A dificuldade de se definir uma amostra que possa ser representativa da população ciclística se dá em função da própria ausência de informações sistemáticas sobre o quantitativo dessa população nas cidades brasileiras, portanto o número de indivíduos que compõem o universo da pesquisa é desconhecida.
+
+Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclistas com base nos números fornecidos pelo Sistema de Informação da Mobilidade da ANTP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

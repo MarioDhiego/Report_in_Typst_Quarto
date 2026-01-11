@@ -1,7 +1,12 @@
 ---
 title: "Pesquisa Nacional Pela Mobilidade Por Bicicletas"
 subtitle: "Perfil Estatístico do Ciclista Paraense 2026"
-author: "Mario Diego Rocha Valente"
+author:
+  - name: Mario Diego Rocha Valente
+    email: mario.valente@detran.pa.gov.br
+    orcid: 0000-0002-1234-5678
+date: today
+theme: cosmo
 format: 
   typst:
     toc: true
@@ -13,8 +18,22 @@ format:
 ---
 
 
+```{=typst}
+
+#v(7cm)
+#align(center)[
+  #image("detran2.jpg", width: 15%)
+   
+  *Coordenadoria do Núcleo de Planejamento* \ 
+  *Gerência de Estatística de Trânsito* \
+  *Belém - 2026*
+]
+
+```
 
 
+
+{{< pagebreak >}}
 
 ## Introdução
 
@@ -22,16 +41,13 @@ format:
 
 O objetivo principal deste projeto é pesquisar por meio de um levantamento de campo as motivaçoes, hábitos e características sociodemográticas dos usuários de bicicleta no ambiente urbano.
 
-
 ## Amostragem e Metodologia de Campo
 
 ### População Alvo
 
 Nesta pesquisa a população-alvo são usuários de bicicletas com mais de 12 anos de idade, que as utilizem como modo de transporte pelo menos uma vez por semana, que estejam utilizando, estacionando ou empurrando uma bicicleta.
 
-
 Conceitualmente a população alvo é a população sobre a qual deseja-se obter informações e a população de pesquisa é a que será realmente coberta pela pesquisa. No entanto, por causa da natureza da pesquisa é possível entre se utilize métodos diretos de amostragem probabilísticas para a seleção dos entrevistados. Isto se deve a inexistência de cadastros com a informação sobre usuários de bicicleta, como por exemplo, usuários por domicílio em uma determinada região.
-
 
 ### Tamanho da Amostra
 
@@ -39,24 +55,43 @@ A dificuldade de se definir uma amostra que possa ser representativa da populaç
 
 Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclistas com base nos números fornecidos pelo Sistema de Informação da Mobilidade da ANTP.
 
+### Instrumento
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1)  Quantos dias da semana você costuma utilizar a bicicleta como meio de transporte?
+    -   [ ] 1 a 2 dias
+    -   [ ] 3 a 4 dias
+    -   [ ] 5 a 6 dias
+    -   [ ] Todos os dias (7 dias)
+2)  Qual o principal motivo da sua viagem hoje?
+    -   [ ] Trabalho
+    -   [ ] Escola / Faculdade
+    -   [ ] Compras / Serviços
+    -   [ ] Lazer / Visita a amigos
+    -   [ ] Saúde
+3)  Há quanto tempo você utiliza a bicicleta como meio de transporte?
+    -   [ ] Menos de 6 meses
+    -   [ ] 6 meses a 1 ano
+    -   [ ] 1 a 2 anos
+    -   [ ] 2 a 3 anos
+    -   [ ] 3 a 4 anos
+    -   [ ] Mais de 5 anos
+4)  No seu trajeto atual, você utiliza alguma infraestrutura cicloviária (ciclovia ou ciclofaixa)?
+    -   [ ] Sim, em todo o trajeto
+    -   [ ] Sim, em parte do trajeto
+    -   [ ] Não existe infraestrutura no trajeto
+5)  Qual o principal fator que te motiva a usar a bicicleta?
+    -   [ ] Rapidez / Agilidade
+    -   [ ] Saúde / Exercício
+    -   [ ] Economia (custo zero)
+    -   [ ] Sustentabilidade / Meio ambiente
+6)  Qual a sua faixa etária?
+    -   [ ] 12 a 18 anos
+    -   [ ] 19 a 29 anos
+    -   [ ] 30 a 49 anos
+    -   [ ] 50 a 64 anos
+    -   [ ] 65 anos ou mais
+7)  Qual a sua renda familiar mensal aproximada?
+    -   [ ] Até 1 salário mínimo
+    -   [ ] Entre 1 e 3 salários mínimos
+    -   [ ] Entre 3 e 5 salários mínimos
+    -   [ ] Acima de 5 salários mínimos

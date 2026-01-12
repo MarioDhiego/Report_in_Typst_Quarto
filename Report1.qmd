@@ -1,41 +1,52 @@
 ---
 title: "Pesquisa Nacional Pela Mobilidade Por Bicicletas"
-subtitle: "Perfil Estatístico do Ciclista Paraense 2026"
+subtitle: "Perfil Estatístico do Ciclista Paraense – 2026"
 author:
   - name: Mario Diego Rocha Valente
     email: mario.valente@detran.pa.gov.br
     orcid: 0000-0002-1234-5678
 date: today
-theme: cosmo
-format: 
+format:
   typst:
     toc: true
-    toc-depth: 3
     toc-title: Sumário
-    section-numbering: 1.1.a
+    toc-depth: 3
     number-sections: true
-    columns: 1
+    section-numbering: "1.1"
 ---
 
 
 ```{=typst}
-
 #v(7cm)
+
 #align(center)[
   #image("detran2.jpg", width: 15%)
-   
-  *Coordenadoria do Núcleo de Planejamento* \ 
-  *Gerência de Estatística de Trânsito* \
-  *Belém - 2026*
-]
 
+  *Coordenadoria do Núcleo de Planejamento*  \
+  *Gerência de Estatística de Trânsito* 
+]
 ```
 
 
 
-{{< pagebreak >}}
 
 ## Introdução
+
+
+A bicicleta já é uma realidade em âmbito mundial como parte das soluções para o ambiente urbano principalmente no que tange à mobilidade urbana e à qualidade de vida nas cidades.
+
+
+Apesar do reconhecimento avançado na produção de estatísticas públicas no Brasil, com pesquisas cada vez mais periódicas e abrangentes, tanto do ponto de vista temático quanto territorial, ainda é escassa a produção de informação e conhecimento sobre mobilidade urbana, em especial sobre a bicicleta e demais meios ativos.
+
+A ausência de dados se torna ainda mais preocupante em razão do atraso na realização do Censo Demográfico, que deveria ter sido realizado em 2020 e só foi realizado em 2022. Pela primeira vez, o IBGE perguntou qual meio de transporte é utilizado para chegar ao local de trabalho
+
+
+
+
+
+
+
+
 
 ## Objetivo e Escopo
 
@@ -57,12 +68,13 @@ Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclist
 
 ### Instrumento
 
-1)  Quantos dias da semana você costuma utilizar a bicicleta como meio de transporte?
+1)  *Quantos dias da semana você costuma utilizar a bicicleta como meio de transporte?*
     -   [ ] 1 a 2 dias
     -   [ ] 3 a 4 dias
     -   [ ] 5 a 6 dias
     -   [ ] Todos os dias (7 dias)
-2)  Qual o principal motivo da sua viagem hoje?
+    
+2)  *Qual o principal motivo da sua viagem hoje?*
     -   [ ] Trabalho
     -   [ ] Escola / Faculdade
     -   [ ] Compras / Serviços

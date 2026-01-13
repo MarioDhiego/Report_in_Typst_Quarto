@@ -1,9 +1,9 @@
 ---
-title: "Pesquisa Nacional Pela Mobilidade Por Bicicletas"
+title: "PESQUISA MOBILIDADE POR BICICLETAS"
 subtitle: "Perfil Estatístico do Ciclista Paraense – 2026"
 author:
-  - name: Mario Diego Rocha Valente
-    email: mario.valente@detran.pa.gov.br
+  - name: MÁRIO DIEGO ROCHA VALENTE
+    affiliation: (mario.valente@detran.pa.gov.br)
     orcid: 0000-0002-1234-5678
 date: today
 format:
@@ -38,7 +38,9 @@ A bicicleta já é uma realidade em âmbito mundial como parte das soluções pa
 
 Apesar do reconhecimento avançado na produção de estatísticas públicas no Brasil, com pesquisas cada vez mais periódicas e abrangentes, tanto do ponto de vista temático quanto territorial, ainda é escassa a produção de informação e conhecimento sobre mobilidade urbana, em especial sobre a bicicleta e demais meios ativos.
 
-A ausência de dados se torna ainda mais preocupante em razão do atraso na realização do Censo Demográfico, que deveria ter sido realizado em 2020 e só foi realizado em 2022. Pela primeira vez, o IBGE perguntou qual meio de transporte é utilizado para chegar ao local de trabalho
+A ausência de dados se torna ainda mais preocupante em razão do atraso na realização do Censo Demográfico, que deveria ter sido realizado em 2020 e só foi realizado em 2022. Pela primeira vez, o IBGE perguntou qual meio de transporte é utilizado para chegar ao local de trabalho. Trata-se de um enorme avanço, embora seja uma pergunta limitada, pois sabemos que a bicicleta é utilizada por diversos motivos: ir à escola, aos locais de lazer, para compras, além de seu papel fundamental na integração com outros meios de transporte. Além disso, o Censo de 2022 levantou a existência de vias sinalizadas para bicicleta. 
+
+A pesquisa perfil do ciclista desempenha ainda um papel cricual no avanço da pesquisa científica sobre bicicletas e mobilidade ativa. Seu impacto transcende a coleta de dados; ela é uma fonte valiosa de informações que impulsiona o desenvolvimento da pesquisa científica sobre bicicleta e mobilidade ativa, fornecendo dados inéditos e relevantes para a compreensão dos padrões de uso das bicicleta nas cidades.
 
 
 
@@ -66,44 +68,63 @@ A dificuldade de se definir uma amostra que possa ser representativa da populaç
 
 Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclistas com base nos números fornecidos pelo Sistema de Informação da Mobilidade da ANTP.
 
+
+{{< pagebreak >}}
+
+
 ### Instrumento
 
-1)  *Quantos dias da semana você costuma utilizar a bicicleta como meio de transporte?*
-    -   [ ] 1 a 2 dias
-    -   [ ] 3 a 4 dias
-    -   [ ] 5 a 6 dias
-    -   [ ] Todos os dias (7 dias)
-    
-2)  *Qual o principal motivo da sua viagem hoje?*
-    -   [ ] Trabalho
-    -   [ ] Escola / Faculdade
-    -   [ ] Compras / Serviços
-    -   [ ] Lazer / Visita a amigos
-    -   [ ] Saúde
+```{=typst}
+
+
+1. *Quantos dias da semana você utiliza a bicicleta como meio de transporte?*
+   - ☐ 1 a 2 dias
+   - ☐ 3 a 4 dias
+   - ☐ 5 a 6 dias
+   - ☐ Todos os dias
+
+2. *Qual o principal motivo da sua viagem hoje?*
+   - ☐ Trabalho
+   - ☐ Escola / Faculdade
+   - ☐ Compras / Serviços
+   - ☐ Lazer / Visita a amigos
+   - ☐ Saúde
+
 3)  Há quanto tempo você utiliza a bicicleta como meio de transporte?
-    -   [ ] Menos de 6 meses
-    -   [ ] 6 meses a 1 ano
-    -   [ ] 1 a 2 anos
-    -   [ ] 2 a 3 anos
-    -   [ ] 3 a 4 anos
-    -   [ ] Mais de 5 anos
+   - ☐  Menos de 6 meses
+   - ☐  6 meses a 1 ano
+   - ☐  1 a 2 anos
+   - ☐  2 a 3 anos
+   - ☐  3 a 4 anos
+   - ☐  Mais de 5 anos
+    
 4)  No seu trajeto atual, você utiliza alguma infraestrutura cicloviária (ciclovia ou ciclofaixa)?
-    -   [ ] Sim, em todo o trajeto
-    -   [ ] Sim, em parte do trajeto
-    -   [ ] Não existe infraestrutura no trajeto
+   - ☐ Sim, em todo o trajeto
+   - ☐ Sim, em parte do trajeto
+   - ☐ Não existe infraestrutura no trajeto
+    
 5)  Qual o principal fator que te motiva a usar a bicicleta?
-    -   [ ] Rapidez / Agilidade
-    -   [ ] Saúde / Exercício
-    -   [ ] Economia (custo zero)
-    -   [ ] Sustentabilidade / Meio ambiente
+   - ☐ Rapidez / Agilidade
+   - ☐ Saúde / Exercício
+   - ☐ Economia (custo zero)
+   - ☐ Sustentabilidade / Meio ambiente
+   
 6)  Qual a sua faixa etária?
-    -   [ ] 12 a 18 anos
-    -   [ ] 19 a 29 anos
-    -   [ ] 30 a 49 anos
-    -   [ ] 50 a 64 anos
-    -   [ ] 65 anos ou mais
+   -   [ ] 12 a 18 anos
+   -   [ ] 19 a 29 anos
+   -   [ ] 30 a 49 anos
+   -   [ ] 50 a 64 anos
+   -   [ ] 65 anos ou mais
+   
 7)  Qual a sua renda familiar mensal aproximada?
-    -   [ ] Até 1 salário mínimo
-    -   [ ] Entre 1 e 3 salários mínimos
-    -   [ ] Entre 3 e 5 salários mínimos
-    -   [ ] Acima de 5 salários mínimos
+   -   [ ] Até 1 salário mínimo
+   -   [ ] Entre 1 e 3 salários mínimos
+   -   [ ] Entre 3 e 5 salários mínimos
+   -   [ ] Acima de 5 salários mínimos
+
+
+```
+
+
+
+

@@ -1,0 +1,21 @@
+id,dias_semana,motivo_viagem,tempo_uso,infraestrutura,motivacao,faixa_etaria,renda
+1,1 a 2 dias,Trabalho,Menos de 6 meses,Sim em todo o trajeto,Rapidez / Agilidade,12 a 18 anos,Até 1 salário mínimo
+2,3 a 4 dias,Escola / Faculdade,6 meses a 1 ano,Sim em parte do trajeto,Saúde / Exercício,19 a 29 anos,1 a 3 salários mínimos
+3,5 a 6 dias,Compras / Serviços,1 a 2 anos,Não existe infraestrutura,Economia,30 a 49 anos,3 a 5 salários mínimos
+4,Todos os dias,Lazer / Visita a amigos,2 a 3 anos,Sim em todo o trajeto,Sustentabilidade,50 a 64 anos,Acima de 5 salários mínimos
+5,1 a 2 dias,Saúde,3 a 4 anos,Sim em parte do trajeto,Rapidez / Agilidade,65 anos ou mais,Até 1 salário mínimo
+6,3 a 4 dias,Trabalho,Mais de 5 anos,Não existe infraestrutura,Saúde / Exercício,12 a 18 anos,1 a 3 salários mínimos
+7,5 a 6 dias,Escola / Faculdade,Menos de 6 meses,Sim em todo o trajeto,Economia,19 a 29 anos,3 a 5 salários mínimos
+8,Todos os dias,Compras / Serviços,6 meses a 1 ano,Sim em parte do trajeto,Sustentabilidade,30 a 49 anos,Acima de 5 salários mínimos
+9,1 a 2 dias,Lazer / Visita a amigos,1 a 2 anos,Não existe infraestrutura,Rapidez / Agilidade,50 a 64 anos,Até 1 salário mínimo
+10,3 a 4 dias,Saúde,2 a 3 anos,Sim em todo o trajeto,Saúde / Exercício,65 anos ou mais,1 a 3 salários mínimos
+11,5 a 6 dias,Trabalho,3 a 4 anos,Sim em parte do trajeto,Economia,12 a 18 anos,3 a 5 salários mínimos
+12,Todos os dias,Escola / Faculdade,Mais de 5 anos,Não existe infraestrutura,Sustentabilidade,19 a 29 anos,Acima de 5 salários mínimos
+13,1 a 2 dias,Compras / Serviços,Menos de 6 meses,Sim em todo o trajeto,Rapidez / Agilidade,30 a 49 anos,Até 1 salário mínimo
+14,3 a 4 dias,Lazer / Visita a amigos,6 meses a 1 ano,Sim em parte do trajeto,Saúde / Exercício,50 a 64 anos,1 a 3 salários mínimos
+15,5 a 6 dias,Saúde,1 a 2 anos,Não existe infraestrutura,Economia,65 anos ou mais,3 a 5 salários mínimos
+16,Todos os dias,Trabalho,2 a 3 anos,Sim em todo o trajeto,Sustentabilidade,12 a 18 anos,Acima de 5 salários mínimos
+17,1 a 2 dias,Escola / Faculdade,3 a 4 anos,Sim em parte do trajeto,Rapidez / Agilidade,19 a 29 anos,Até 1 salário mínimo
+18,3 a 4 dias,Compras / Serviços,Mais de 5 anos,Não existe infraestrutura,Saúde / Exercício,30 a 49 anos,1 a 3 salários mínimos
+19,5 a 6 dias,Lazer / Visita a amigos,1 a 2 anos,Sim em todo o trajeto,Economia,50 a 64 anos,3 a 5 salários mínimos
+20,Todos os dias,Saúde,Mais de 5 anos,Não existe infraestrutura,Sustentabilidade,65 anos ou mais,Acima de 5 salários mínimos

@@ -69,12 +69,14 @@ A dificuldade de se definir uma amostra que possa ser representativa da populaç
 Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclistas com base nos números fornecidos pelo Sistema de Informação da Mobilidade da ANTP.
 
 
-{{< pagebreak >}}
+
 
 
 ### Instrumento
 
 ```{=typst}
+
+#columns(2, gutter: 1.2cm)[ 
 
 
 1. *Quantos dias da semana você utiliza a bicicleta como meio de transporte?*
@@ -83,47 +85,136 @@ Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclist
    - ☐ 5 a 6 dias
    - ☐ Todos os dias
 
-2. *Qual o principal motivo da sua viagem hoje?*
+2. *Qual o principal destino da sua viagem hoje?*
    - ☐ Trabalho
-   - ☐ Escola / Faculdade
-   - ☐ Compras / Serviços
-   - ☐ Lazer / Visita a amigos
+   - ☐ Escola/Faculdade
+   - ☐ Compras/Serviços
+   - ☐ Lazer/Visita a amigos
    - ☐ Saúde
 
-3)  Há quanto tempo você utiliza a bicicleta como meio de transporte?
-   - ☐  Menos de 6 meses
-   - ☐  6 meses a 1 ano
-   - ☐  1 a 2 anos
-   - ☐  2 a 3 anos
-   - ☐  3 a 4 anos
-   - ☐  Mais de 5 anos
+3. *Há quanto tempo você utiliza a bicicleta como meio de transporte?*
+   - ☐ Menos de 6 meses
+   - ☐ 6 meses a 1 ano
+   - ☐ 1 a 2 anos
+   - ☐ 2 a 3 anos
+   - ☐ 3 a 4 anos
+   - ☐ Mais de 5 anos
     
-4)  No seu trajeto atual, você utiliza alguma infraestrutura cicloviária (ciclovia ou ciclofaixa)?
+4. *Qual o principal Motivo você utiliza a bicicleta como meio de transporte?*
+   - ☐ È mais barato
+   - ☐ È mais rápido e prático
+   - ☐ È mais saudável
+   - ☐ È ambientalmente correto
+   - ☐ Outros
+   
+4. *No seu trajeto atual, você utiliza alguma infraestrutura cicloviária (ciclovia ou ciclofaixa)?*
    - ☐ Sim, em todo o trajeto
    - ☐ Sim, em parte do trajeto
    - ☐ Não existe infraestrutura no trajeto
     
-5)  Qual o principal fator que te motiva a usar a bicicleta?
+5. *Qual o principal fator que te motiva a usar a bicicleta?*
    - ☐ Rapidez / Agilidade
    - ☐ Saúde / Exercício
    - ☐ Economia (custo zero)
    - ☐ Sustentabilidade / Meio ambiente
    
-6)  Qual a sua faixa etária?
-   -   [ ] 12 a 18 anos
-   -   [ ] 19 a 29 anos
-   -   [ ] 30 a 49 anos
-   -   [ ] 50 a 64 anos
-   -   [ ] 65 anos ou mais
+6. *Qual o seu gênero?*
+   - ☐ Masculino
+   - ☐ Feminino
+   - ☐ Outros
    
-7)  Qual a sua renda familiar mensal aproximada?
-   -   [ ] Até 1 salário mínimo
-   -   [ ] Entre 1 e 3 salários mínimos
-   -   [ ] Entre 3 e 5 salários mínimos
-   -   [ ] Acima de 5 salários mínimos
+7. *Qual a sua faixa etária?*
+   - ☐ 12 a 18 anos
+   - ☐ 19 a 29 anos
+   - ☐ 30 a 49 anos
+   - ☐ 50 a 64 anos
+   - ☐ 65 anos ou mais
+   
+8. *Qual a sua renda familiar mensal aproximada?*
+   - ☐ Até 1 salário mínimo
+   - ☐ Entre 1 e 3 salários mínimos
+   - ☐ Entre 3 e 5 salários mínimos
+   - ☐ Acima de 5 salários mínimos
+
+9. *Você já sofreu algum tipo de importunação/assédio enquanto pedalava?*
+   - ☐ Sim
+   - ☐ Não
+
+10. *Você já teve sua bicicleta, ou partes dela, furtada ou roubada?*
+   - ☐ Sim
+   - ☐ Não
+   
+12. *Você já sofreu ou esteve envolvido em Acidentes de Trânsito enquanto pedalava?*
+   - ☐ Sim
+   - ☐ Não
+   
+]
+   
+```
+
+
+
+```{r, message=FALSE, warning=FALSE}
+dados <- read.csv("pesquisa_bicicleta_simulada.csv")
+
+
+dicionario <- tibble::tibble(
+  variavel = c(
+    "dias_semana",
+    "motivo_viagem",
+    "tempo_uso",
+    "infraestrutura",
+    "motivacao",
+    "faixa_etaria",
+    "renda"
+  ),
+  pergunta = c(
+    "Dias de uso da bicicleta por semana",
+    "Principal motivo da viagem",
+    "Tempo de uso da bicicleta",
+    "Uso de infraestrutura cicloviária",
+    "Fator de motivação para o uso",
+    "Faixa etária",
+    "Renda familiar mensal"
+  )
+)
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+gera_tabela <- function(dados, var, titulo) {
+  dados |>
+    count(.data[[var]]) |>
+    mutate(
+      Percentual = round(n / sum(n) * 100, 1)
+    ) |>
+    rename(
+      Categoria = 1,
+      Frequência = n
+    ) |>
+    kable(
+      caption = titulo,
+      align = "lcc",
+      booktabs = TRUE
+    ) |>
+    kable_styling(full_width = FALSE)
+}
+
+gera_tabela(
+  dados,
+  "motivo_viagem",
+  "Tabela 1 – Principal motivo da viagem"
+)
+
+
+
+
+
 
 
 ```
+
 
 
 

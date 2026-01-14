@@ -1,6 +1,6 @@
 ---
-title: "PESQUISA MOBILIDADE POR BICICLETAS"
-subtitle: "Perfil Estatístico do Ciclista Paraense – 2026"
+title: "Perfil Estatístico do Ciclista Paraense – 2026"
+subtitle: "Diagóstico"
 author:
   - name: MÁRIO DIEGO ROCHA VALENTE
     affiliation: (mario.valente@detran.pa.gov.br)
@@ -8,9 +8,9 @@ author:
 date: today
 format:
   typst:
-    toc: true
+    toc: TRUE
     toc-title: Sumário
-    toc-depth: 3
+    toc-depth: 4
     number-sections: true
     section-numbering: "1.1"
 ---
@@ -29,70 +29,102 @@ format:
 
 
 
-
-## Introdução
-
-
-A bicicleta já é uma realidade em âmbito mundial como parte das soluções para o ambiente urbano principalmente no que tange à mobilidade urbana e à qualidade de vida nas cidades.
+```{=typst}
+#pagebreak()
+```
 
 
-Apesar do reconhecimento avançado na produção de estatísticas públicas no Brasil, com pesquisas cada vez mais periódicas e abrangentes, tanto do ponto de vista temático quanto territorial, ainda é escassa a produção de informação e conhecimento sobre mobilidade urbana, em especial sobre a bicicleta e demais meios ativos.
+## INTRODUÇÃO
 
-A ausência de dados se torna ainda mais preocupante em razão do atraso na realização do Censo Demográfico, que deveria ter sido realizado em 2020 e só foi realizado em 2022. Pela primeira vez, o IBGE perguntou qual meio de transporte é utilizado para chegar ao local de trabalho. Trata-se de um enorme avanço, embora seja uma pergunta limitada, pois sabemos que a bicicleta é utilizada por diversos motivos: ir à escola, aos locais de lazer, para compras, além de seu papel fundamental na integração com outros meios de transporte. Além disso, o Censo de 2022 levantou a existência de vias sinalizadas para bicicleta. 
+A mobilidade urbana sustentável tem ocupado posição central no debate contemporâneo sobre planejamento urbano, políticas públicas e qualidade de vida nas cidades. Entre os diferentes modos de transporte, a bicicleta destaca-se por sua eficiência energética, baixo custo operacional e impactos positivos sobre a saúde individual e coletiva, sendo amplamente reconhecida como elemento estratégico para a redução de congestionamentos, emissões de poluentes e desigualdades no acesso à cidade (Pucher & Buehler, 2012; Banister, 2008).
 
-A pesquisa perfil do ciclista desempenha ainda um papel cricual no avanço da pesquisa científica sobre bicicletas e mobilidade ativa. Seu impacto transcende a coleta de dados; ela é uma fonte valiosa de informações que impulsiona o desenvolvimento da pesquisa científica sobre bicicleta e mobilidade ativa, fornecendo dados inéditos e relevantes para a compreensão dos padrões de uso das bicicleta nas cidades.
+No contexto brasileiro, embora se observe um avanço significativo na produção de estatísticas públicas relacionadas à mobilidade urbana impulsionado por levantamentos periódicos, pesquisas domiciliares e sistemas administrativos ainda persiste uma lacuna importante no que se refere à caracterização sistemática dos usuários de modos ativos, em especial dos ciclistas urbanos. Estudos nacionais tendem a tratar a bicicleta de forma agregada ou secundária, limitando a compreensão aprofundada de seus padrões de uso, motivações e barreiras estruturais (Vasconcellos, 2014).
 
-
-
-
+No estado do Pará, essa lacuna é ainda mais evidente. A ausência de bases de dados específicas e atualizadas sobre o perfil do ciclista dificulta o planejamento de políticas públicas orientadas por evidências, comprometendo a priorização de investimentos em infraestrutura cicloviária, segurança viária e integração modal. Assim, torna-se fundamental a realização de pesquisas de campo que produzam informações primárias, padronizadas e comparáveis, capazes de subsidiar decisões estratégicas no âmbito da gestão pública.
 
 
+## OBJETIVOS
+### Objetivo Geral
+
+Analisar o perfil sociodemográfico, os padrões de uso, as motivações e as condições de deslocamento dos usuários de bicicleta no espaço urbano paraense, por meio de um levantamento de campo estruturado, visando subsidiar políticas públicas de mobilidade ativa e segurança viária.
+
+
+### Objetivo Específico
+
+- Caracterizar a frequência de uso da bicicleta como meio de transporte urbano;
+- Identificar os principais motivos associados às viagens realizadas por bicicleta;
+- Analisar o tempo de utilização da bicicleta como modo de transporte ao longo da vida dos respondentes;
+- Avaliar o uso e a disponibilidade de infraestrutura cicloviária nos trajetos realizados;
+- Descrever o perfil etário e de renda dos usuários de bicicleta;
+- Produzir indicadores estatísticos que permitam comparações temporais e territoriais.
+
+
+```{=typst}
+#pagebreak()
+```
+
+
+# MATERIAL E MÉTODOS
+## População Alvo
+
+A população-alvo da pesquisa é composta por indivíduos com idade igual ou superior a 12 anos que utilizam a bicicleta como meio de transporte ao menos uma vez por semana em ambiente urbano. Incluem-se usuários que estejam, no momento da abordagem, utilizando, estacionando ou conduzindo a bicicleta a pé.
+
+Do ponto de vista conceitual, distingue-se a população-alvo conjunto teórico sobre o qual se deseja inferir — da população efetivamente investigada, limitada pelas condições operacionais da coleta. A inexistência de cadastros formais ou registros administrativos que identifiquem usuários de bicicleta inviabiliza a adoção de métodos clássicos de amostragem probabilística, como amostragem aleatória simples ou estratificada (Lohr, 2019).
+
+
+## Estratégia Amostral
+
+Diante dessas limitações, será adotada uma estratégia de amostragem não probabilística por interceptação em pontos estratégicos da malha urbana, tais como vias arteriais, ciclovias, áreas comerciais, polos geradores de viagens e equipamentos públicos. Essa abordagem é amplamente utilizada em pesquisas de mobilidade ativa e transporte urbano, especialmente quando o universo populacional é desconhecido ou de difícil mensuração (Stopher & Jones, 2003).
+
+
+## Tamanho da Amostra
+
+O tamanho da amostra será definido a partir de estimativas do universo de ciclistas fornecidas por fontes secundárias, como o Sistema de Informações da Mobilidade Urbana da Associação Nacional de Transportes Públicos (ANTP), combinadas com critérios operacionais e recursos disponíveis. Embora não permita inferência estatística estrita para toda a população, essa abordagem possibilita a construção de diagnósticos robustos e indicativos para formulação de políticas públicas.
 
 
 
-## Objetivo e Escopo
-
-O objetivo principal deste projeto é pesquisar por meio de um levantamento de campo as motivaçoes, hábitos e características sociodemográticas dos usuários de bicicleta no ambiente urbano.
-
-## Amostragem e Metodologia de Campo
-
-### População Alvo
-
-Nesta pesquisa a população-alvo são usuários de bicicletas com mais de 12 anos de idade, que as utilizem como modo de transporte pelo menos uma vez por semana, que estejam utilizando, estacionando ou empurrando uma bicicleta.
-
-Conceitualmente a população alvo é a população sobre a qual deseja-se obter informações e a população de pesquisa é a que será realmente coberta pela pesquisa. No entanto, por causa da natureza da pesquisa é possível entre se utilize métodos diretos de amostragem probabilísticas para a seleção dos entrevistados. Isto se deve a inexistência de cadastros com a informação sobre usuários de bicicleta, como por exemplo, usuários por domicílio em uma determinada região.
-
-### Tamanho da Amostra
-
-A dificuldade de se definir uma amostra que possa ser representativa da população ciclística se dá em função da própria ausência de informações sistemáticas sobre o quantitativo dessa população nas cidades brasileiras, portanto o número de indivíduos que compõem o universo da pesquisa é desconhecida.
-
-Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclistas com base nos números fornecidos pelo Sistema de Informação da Mobilidade da ANTP.
+```{=typst}
+#pagebreak()
+```
 
 
 
 
+```{=typst}
 
-### Instrumento
+
+
+```
+
+## Instrumento
+
+O instrumento de coleta consiste em um questionário estruturado, composto por perguntas fechadas, elaborado com base em referenciais metodológicos de pesquisas nacionais e internacionais sobre mobilidade ativa (Pucher & Buehler, 2017; Heinen, Van Wee & Maat, 2010). O questionário busca equilíbrio entre abrangência temática e simplicidade operacional, de modo a viabilizar sua aplicação em campo.
+
 
 ```{=typst}
 
 #columns(2, gutter: 1.2cm)[ 
 
+1. *Qual o seu principal modo de locomoção?*
+   - ☐ Bicicleta Convencional   
+   - ☐ Bicicleta Compartilhada
+   - ☐ Bicicleta Elétrica
+   - ☐ Patinete
 
-1. *Quantos dias da semana você utiliza a bicicleta como meio de transporte?*
-   - ☐ 1 a 2 dias
-   - ☐ 3 a 4 dias
-   - ☐ 5 a 6 dias
+2. *Com que frequência você utiliza a bicicleta como meio de transporte?*
+   - ☐ 1 a 2 dias por semana
+   - ☐ 3 a 4 dias por semana
+   - ☐ 5 a 6 dias por semana
    - ☐ Todos os dias
 
-2. *Qual o principal destino da sua viagem hoje?*
+3. *Qual o principal destino da sua viagem atual?*
    - ☐ Trabalho
-   - ☐ Escola/Faculdade
-   - ☐ Compras/Serviços
-   - ☐ Lazer/Visita a amigos
+   - ☐ Estudo(escola/faculdade)
+   - ☐ Compras ou eerviços
+   - ☐ Lazer ou atividades sociais
    - ☐ Saúde
 
-3. *Há quanto tempo você utiliza a bicicleta como meio de transporte?*
+4. *Há quanto tempo você utiliza a bicicleta como meio de transporte?*
    - ☐ Menos de 6 meses
    - ☐ 6 meses a 1 ano
    - ☐ 1 a 2 anos
@@ -100,121 +132,153 @@ Para contornar essa dificuldade adotaremos uma estimativa do universo de ciclist
    - ☐ 3 a 4 anos
    - ☐ Mais de 5 anos
     
-4. *Qual o principal Motivo você utiliza a bicicleta como meio de transporte?*
-   - ☐ È mais barato
-   - ☐ È mais rápido e prático
-   - ☐ È mais saudável
-   - ☐ È ambientalmente correto
-   - ☐ Outros
+5. *Qual é o principal Motivo para uso da bicicleta como meio de transporte?*
+   - ☐ Economia Financeira
+   - ☐ Rapidez e Praticidade
+   - ☐ Benefícios à saúde
+   - ☐ Sustentabilidade ambiental
+   - ☐ Outro
    
-4. *No seu trajeto atual, você utiliza alguma infraestrutura cicloviária (ciclovia ou ciclofaixa)?*
+6. *No trajeto que você realiza habitualmente, há utilização de infraestrutura cicloviária?*
    - ☐ Sim, em todo o trajeto
    - ☐ Sim, em parte do trajeto
-   - ☐ Não existe infraestrutura no trajeto
-    
-5. *Qual o principal fator que te motiva a usar a bicicleta?*
-   - ☐ Rapidez / Agilidade
-   - ☐ Saúde / Exercício
-   - ☐ Economia (custo zero)
-   - ☐ Sustentabilidade / Meio ambiente
+   - ☐ Não há infraestrutura cicloviária
+ 
+7. *Quanto tempo, em média, Você leva no trajeto + frequente realizado de Bicicleta?*
+   - ☐ Até 10 minutos   
+   - ☐ Até 20 minutos  
+   - ☐ Até 30 minutos 
+   - ☐ Até 60 minutos 
+   - ☐ Mais de 1 Hora 
    
-6. *Qual o seu gênero?*
+8. *Quais Equipamentos de Segurança você costuma utilizar?*
+   - ☐ Capcete 
+   - ☐ Luvas 
+   - ☐ Colete refletivo
+   - ☐ Óculos de proteção 
+   - ☐ Espelho retrovisor
+   - ☐ Campainha (buzina)
+   - ☐ Refletores (olho de gato)     
+
+9. *Qual é o seu gênero?*
    - ☐ Masculino
    - ☐ Feminino
    - ☐ Outros
    
-7. *Qual a sua faixa etária?*
+10. *Qual é a sua faixa etária?*
    - ☐ 12 a 18 anos
    - ☐ 19 a 29 anos
    - ☐ 30 a 49 anos
    - ☐ 50 a 64 anos
    - ☐ 65 anos ou mais
    
-8. *Qual a sua renda familiar mensal aproximada?*
+11. *Como você se autodeclara em relação à cor ou raça?*
+   - ☐ Branco   
+   - ☐ Preta
+   - ☐ Amarela
+   - ☐ Parda
+   - ☐ Indígena
+   
+12. *QuaL é o seu nível de Escolaridade?*
+   - ☐ Sem Instrução  
+   - ☐ Ensino fundamental
+   - ☐ Ensino médio
+   - ☐ Ensino superior
+   - ☐ Pós-graduação
+      
+13. *Qual é a sua renda familiar mensal aproximada?*
    - ☐ Até 1 salário mínimo
    - ☐ Entre 1 e 3 salários mínimos
    - ☐ Entre 3 e 5 salários mínimos
-   - ☐ Acima de 5 salários mínimos
+   - ☐ Acima de 6 salários mínimos
 
-9. *Você já sofreu algum tipo de importunação/assédio enquanto pedalava?*
+14. *Qual a sua Profissão?*
+   - ☐-------------------------------
+
+15. *Você já sofreu algum tipo de assédio ou importunação enquanto utilizava a bicicleta?*
    - ☐ Sim
    - ☐ Não
 
-10. *Você já teve sua bicicleta, ou partes dela, furtada ou roubada?*
+16. *Você já teve sua bicicleta, ou partes dela, furtadas ou roubadas?*
    - ☐ Sim
    - ☐ Não
    
-12. *Você já sofreu ou esteve envolvido em Acidentes de Trânsito enquanto pedalava?*
+17. *Você já sofreu ou esteve envolvido em acidentes de trânsito enquanto pedalava?*
    - ☐ Sim
    - ☐ Não
+\
+\
+\
+18. *Você combina a bicicleta com outro meio de transporte?*
+   - ☐ Não
+   - ☐ Sim, com transporte coletivo
+   - ☐ Sim, com transporte individual
+   - ☐ Sim, com caminhada
+
+19. *Você tem conhecimento da existência de sistema de bicicleta Compartilhada em sua cidade?*
+   - ☐ Sim
+   - ☐ Não   
    
+20. *Como você avalia a segurança viária no seu trajeto + frequente?*
+   - ☐ Muito segura   
+   - ☐ Segura
+   - ☐ Pouca segura
+   - ☐ Nada segura
+
+21. *Qual o principal risco percebido ao pedalar?*
+   - ☐ Velocidade dos Veículos 
+   - ☐ Falta de infraestrutura
+   - ☐ Iluminação inadequada 
+   - ☐ Criminalidade
+   - ☐ Outro
+
+22. *Após a pandemia da COVID-19, você passou a utilizar mais a bicicleta?*
+   - ☐ Sim
+   - ☐ Não
+   - ☐ Não utilizava antes
+
+
+23. *Você considera que o poder público incentiva o uso da bicicleta?*
+   - ☐ Sim
+   - ☐ Parcialmente  
+   - ☐ Não 
+
+
 ]
    
 ```
 
 
 
-```{r, message=FALSE, warning=FALSE}
-dados <- read.csv("pesquisa_bicicleta_simulada.csv")
 
-
-dicionario <- tibble::tibble(
-  variavel = c(
-    "dias_semana",
-    "motivo_viagem",
-    "tempo_uso",
-    "infraestrutura",
-    "motivacao",
-    "faixa_etaria",
-    "renda"
-  ),
-  pergunta = c(
-    "Dias de uso da bicicleta por semana",
-    "Principal motivo da viagem",
-    "Tempo de uso da bicicleta",
-    "Uso de infraestrutura cicloviária",
-    "Fator de motivação para o uso",
-    "Faixa etária",
-    "Renda familiar mensal"
-  )
-)
-
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-
-gera_tabela <- function(dados, var, titulo) {
-  dados |>
-    count(.data[[var]]) |>
-    mutate(
-      Percentual = round(n / sum(n) * 100, 1)
-    ) |>
-    rename(
-      Categoria = 1,
-      Frequência = n
-    ) |>
-    kable(
-      caption = titulo,
-      align = "lcc",
-      booktabs = TRUE
-    ) |>
-    kable_styling(full_width = FALSE)
-}
-
-gera_tabela(
-  dados,
-  "motivo_viagem",
-  "Tabela 1 – Principal motivo da viagem"
-)
-
-
-
-
-
-
-
+```{=typst}
+#pagebreak()
 ```
 
+
+
+# REFERÊNCIAS BIBLIOGRÁFICAS
+
+
+BANISTER, David. The sustainable mobility paradigm. Transport Policy, v. 15, n. 2, p. 73–80, 2008.
+
+HEINEN, Eva; VAN WEE, Bert; MAAT, Kees. Commuting by bicycle: An overview of the literature. Transport Reviews, v. 30, n. 1, p. 59–96, 2010.
+
+LOHR, Sharon L. Sampling: Design and Analysis. 2. ed. Boca Raton: Chapman & Hall/CRC, 2019.
+
+PENG, Roger D. Reproducible research in computational science. Science, v. 334, n. 6060, p. 1226–1227, 2011.
+
+PUCHER, John; BUEHLER, Ralph. Making cycling irresistible: Lessons from the Netherlands, Denmark and Germany. Transport Reviews, v. 28, n. 4, p. 495–528, 2008.
+
+PUCHER, John; BUEHLER, Ralph. Cycling for everyone: Lessons from Europe. Transport Reviews, v. 29, n. 4, p. 475–500, 2009.
+
+PUCHER, John; BUEHLER, Ralph. City cycling. Cambridge: MIT Press, 2012.
+
+PUCHER, John; BUEHLER, Ralph. Cycling towards a more sustainable transport future. Transport Reviews, v. 37, n. 6, p. 689–694, 2017.
+
+STOPHER, Peter R.; JONES, Peter M. Transport survey quality and innovation. Oxford: Pergamon, 2003.
+
+VASCONCELLOS, Eduardo Alcântara de. Mobilidade urbana e cidadania. São Paulo: SENAC, 2014
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Perfil Estatístico do Ciclista Paraense – 2026"
-subtitle: "Diagóstico"
+title: "PESQUISA PELA MOBILIDADE POR BICICLETA"
+subtitle: "Perfil Estatístico do Ciclista Paraense – 2026"
 author:
   - name: MÁRIO DIEGO ROCHA VALENTE
     affiliation: (mario.valente@detran.pa.gov.br)
@@ -17,7 +17,7 @@ format:
 
 
 ```{=typst}
-#v(7cm)
+#v(3.5cm)
 
 #align(center)[
   #image("detran2.jpg", width: 15%)
@@ -34,7 +34,7 @@ format:
 ```
 
 
-## INTRODUÇÃO
+# INTRODUÇÃO
 
 A mobilidade urbana sustentável tem ocupado posição central no debate contemporâneo sobre planejamento urbano, políticas públicas e qualidade de vida nas cidades. Entre os diferentes modos de transporte, a bicicleta destaca-se por sua eficiência energética, baixo custo operacional e impactos positivos sobre a saúde individual e coletiva, sendo amplamente reconhecida como elemento estratégico para a redução de congestionamentos, emissões de poluentes e desigualdades no acesso à cidade (Pucher & Buehler, 2012; Banister, 2008).
 
@@ -341,18 +341,35 @@ tabela_municipios |>
 ```
 
 
+# INSTRUÇÃO GERAL PARA ENTREVISTA
+
+Na coleta dos dados a atuação do pesquisador junto ao informante é fundamental para garantir o sucesso da pesquisa, uma vez que todas as etapas subsequentes dependem da qualidade e da precisão dos dados coletados. 
+
+
+## Cuidados na Abordagem do Informante
+
+o fator decisivo para a realização de uma entrevista é o contato inicial. Não há regras rígidas ou procedimentos a seguir, mas algumas orientações podem ser úteis para que a primeira abordagem ao informante seja bem-sucedida.
+
+
+- Mantenha-se sempre identificado, dispondo, quando for o caso, o seu crachá, camiseta do DETRAN-PA, ou qualquer outro dispositivo de identificação em posição bem visível;
+- Separa com antecedência todo o material de coleta e seu kit de trabalho;
+- Apresente-se ao informante: 
 
 
 
+## Desenvolvimento da Pesquisa
 
+Algumas orientações podem ser úteis para garantir a qualidade das informações coletadas:
 
-
-
-
-
-
-
-
+- Procure manter o clima de cordialidade, o que implica em despertar a confiança do informante, tratando-o sempre com cortesia e resperito;
+- Direcione a entrevista apenas à coleta dos dados, evitando assuntos alheios aos propósitos de sua abordagem;
+- Não aceitar convito à discussão de outras questões que não aquelas relativas à pesquisa em questão e não se envolva em bate-papo antes, durante e depois da entrevista;
+- Leia, integral e pausadamente, todas as perguntas, respeitando a ordem em que aparecem no questionário;
+- Faça as perguntas de maneira direta e positiva, procurando demonstrar que todas as questões apresentadas são importantes;
+- Quando a pergunta contiver várias alternativas de resposta, leia pausadamente cada alternativa, permitindo que o informante compreenda e responda de acordo com sua situação;
+- Procure não o interromper enquanto ele estiver falando, aguardando o informante concluir sua resposta para registrar a informação;
+- Esforce-se para não esboçar reações ante as respostas colhidas;
+- Efetue todas as perguntas e registre todas as respostas, verificando ao final da entrevista, se o questionário está totalmente preenchido.
 
 
 

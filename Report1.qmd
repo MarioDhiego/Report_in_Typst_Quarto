@@ -249,6 +249,115 @@ O instrumento de coleta consiste em um questionário estruturado, composto por p
 ```
 
 
+## Dimensão Nacional da Mobilidade por Bicicleta
+
+Estudos nacionais recentes apontam que o uso da bicicleta como meio de transporte ainda é uma prática minoritária quando considerada em nível agregado, embora existam concentrações mais elevadas em contextos urbanos específicos. De acordo com dados do Sistema de Informações da Mobilidade Urbana (SIMOB) da Associação Nacional de Transportes Públicos (ANTP), nos municípios brasileiros com mais de 60 mil habitantes, cerca de 3,0 % das viagens registradas são realizadas por bicicleta — um percentual que, embora modesto, indica a presença contínua desse modal nas dinâmicas urbanas brasileiras. \vskip0.3cm
+
+Além disso, estima-se, em relatórios técnicos sobre a economia da bicicleta, que a participação do modal ciclístico no conjunto de viagens em cidades maiores pode alcançar cerca de 4 % do total de deslocamentos, sugerindo a existência de milhões de ciclistas no país quando extrapolado para a população urbana geral. Esses indicadores reforçam a necessidade de cobertura territorial ampla em estudos sobre mobilidade ciclística, pois mesmo percentual aparentemente baixo representa um contingente social relevante e heterogêneo em diferentes regiões. \vskip0.3cm
+
+
+Os dados mais recentes do Censo Demográfico do Instituto Brasileiro de Geografia e Estatística (IBGE) evidenciam que a infraestrutura cicloviária urbana ainda é incipiente no Brasil. Segundo análise dos dados do Censo 2022, apenas cerca de 1,9 % da população urbana reside em ruas com algum tipo de infraestrutura cicloviária (ciclovias, ciclofaixas ou ciclorrotas). Essa realidade nacional indica que a presença de infraestrutura cicloviária é desigual e, muitas vezes, concentrada em grandes centros urbanos, sendo ainda incipiente ou inexistente em cidades de médio e pequeno porte. Isso reforça a importância de incluir municípios de diferentes portes e contextos territoriais na amostragem, de modo a compreender a diversidade de situações enfrentadas pelos ciclistas. \vskip0.3cm
+
+
+Levantamentos sobre o perfil do ciclista brasileiro em contextos urbanos demonstram que os ciclistas tendem a pedalar com alta frequência (em muitos casos cinco ou mais dias por semana) e usam a bicicleta predominantemente para deslocamentos cotidianos, como trabalho e estudo, quando há condições minimamente favoráveis para tanto. Pesquisas conduzidas em diversas cidades do país mostram que mais de 70 % dos entrevistados usam a bicicleta cinco ou mais vezes por semana e que a infraestrutura adequada é um dos principais fatores estimuladores do uso do modal. \vskip0.3cm
+
+
+Estes padrões observados, ainda que provenientes de amostras não probabilísticas ou de cidades específicas, corroboram a necessidade de diversificar a amostra de municípios em termos de contexto urbano, densidade populacional e estrutura de mobilidade, para que a pesquisa estadual no Pará capture tanto experiências de uso consolidado como situações de baixo uso potencial.
+
+\newpage
+
+## Critérios de Seleção de Municípios
+
+A adoção de Regiões de Integração como estratos para a seleção dos municípios baseia-se em princípios metodológicos consolidados em amostragem estratificada: a estratificação por unidades territoriais homogêneas (regiões) reduz a variabilidade intraestrata e aumenta a comparabilidade entre diferentes contextos territoriais (LOHR, 2019).
+
+No caso do Pará, adotam-se três municípios por Região de Integração por meio de critérios combinados de:
+
+- Porte populacional, para assegurar a presença de cidades grandes, médias e pequenas em cada estrato;
+- Função urbana e polarização regional, de modo a incluir centros econômicos, polos administrativos e cidades com dinâmica demográfica relevante;
+- Diversidade de infraestrutura e mobilidade urbana, garantindo a inclusão tanto de municípios com históricas práticas ciclísticas como de contextos emergentes ou com baixa infraestrutura cicloviária.
+
+Este desenho amostral permite que a pesquisa não apenas descreva padrões em contextos urbanizados mais intensos, mas também identifique barreiras e oportunidades para a promoção da mobilidade por bicicleta em áreas com menor densidade populacional ou menor foco tradicional em políticas cicloviárias.
+
+
+
+
+
+```{r tabela-municipios-ri-gt, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tibble)
+library(dplyr)
+library(gt)
+
+tabela_municipios <- tibble(
+  `Região de Integração` = c(
+    "Metropolitana",
+    "Guamá",
+    "Caeté",
+    "Tocantins",
+    "Lago de Tucuruí",
+    "Carajás",
+    "Araguaia",
+    "Xingu",
+    "Tapajós",
+    "Baixo Amazonas",
+    "Marajó",
+    "Guajará"
+  ),
+  Municípios = c(
+    "Belém; Ananindeua; Marituba",
+    "Castanhal; Capanema; São Miguel do Guamá",
+    "Bragança; Augusto Corrêa; Viseu",
+    "Abaetetuba; Cametá; Barcarena",
+    "Tucuruí; Breu Branco; Novo Repartimento",
+    "Marabá; Parauapebas; Canaã dos Carajás",
+    "Redenção; Xinguara; Conceição do Araguaia",
+    "Altamira; Senador José Porfírio; Vitória do Xingu",
+    "Itaituba; Trairão; Jacareacanga",
+    "Santarém; Oriximiná; Alenquer",
+    "Breves; Portel; Soure",
+    "Benevides; Santa Izabel do Pará; Santo Antônio do Tauá"
+  )
+)
+
+tabela_municipios |>
+  gt() |>
+  cols_align(
+    align = "left",
+    everything()
+  ) |>
+  cols_width(
+    `Região de Integração` ~ px(220),
+    Municípios ~ px(420)
+  ) |>
+  tab_source_note(
+    source_note = md("Base de Calaculo: ANTP/IBGE.")
+  ) |>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  ) |>
+  opt_table_outline()
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ```{=typst}
@@ -279,7 +388,6 @@ PUCHER, John; BUEHLER, Ralph. Cycling towards a more sustainable transport futur
 STOPHER, Peter R.; JONES, Peter M. Transport survey quality and innovation. Oxford: Pergamon, 2003.
 
 VASCONCELLOS, Eduardo Alcântara de. Mobilidade urbana e cidadania. São Paulo: SENAC, 2014
-
 
 
 

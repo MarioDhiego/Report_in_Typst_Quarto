@@ -31,6 +31,13 @@ format:
 
 
 
+
+
+
+
+
+
+
 ```{=typst}
 #v(7cm)
 
@@ -108,13 +115,6 @@ Adota-se, para fins operacionais, um erro amostral máximo de 10 %, compatível 
 ```
 
 
-
-
-```{=typst}
-
-
-
-```
 
 ## Instrumento
 
@@ -198,7 +198,9 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
    - ☐ Amarela
    - ☐ Parda
    - ☐ Indígena
-   
+\
+\
+\
 12. *Qual é o seu nível de Escolaridade?*
    - ☐ Sem Instrução  
    - ☐ Ensino fundamental
@@ -213,8 +215,14 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
    - ☐ Acima de 6 salários mínimos
 
 14. *Qual a sua Profissão?*
-   - ☐-------------------------------
-
+   - ☐ Trabalhador Formal
+   - ☐ Trabalhador Informal
+   - ☐ Estudante
+   - ☐ Autônomo
+   - ☐ Aposentado
+   - ☐ Desempregado
+   - ☐ Outro
+   
 15. *Você já sofreu algum tipo de assédio ou importunação enquanto utilizava a bicicleta?*
    - ☐ Sim
    - ☐ Não
@@ -226,9 +234,7 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
 17. *Você já sofreu ou esteve envolvido em acidentes de trânsito enquanto pedalava?*
    - ☐ Sim
    - ☐ Não
-\
-\
-\
+   
 18. *Você combina a bicicleta com outro meio de transporte?*
    - ☐ Não
    - ☐ Sim, com transporte coletivo
@@ -237,7 +243,7 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
 
 19. *Você tem conhecimento da existência de sistema de bicicleta Compartilhada em sua cidade?*
    - ☐ Sim
-   - ☐ Não   
+   - ☐ Não  
    
 20. *Como você avalia a segurança viária no seu trajeto + frequente?*
    - ☐ Muito segura   
@@ -362,6 +368,12 @@ tabela_municipios |>
   opt_table_outline()
 
 ```
+
+
+```{=typst}
+#pagebreak()
+```
+
 
 
 # INSTRUÇÃO GERAL PARA ENTREVISTA

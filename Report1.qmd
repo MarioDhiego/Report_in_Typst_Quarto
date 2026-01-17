@@ -1,29 +1,44 @@
 ---
-title: "PESQUISA PELA MOBILIDADE POR BICICLETA"
+title: "Pesquisa pela Mobilidade por Bicicleta"
 subtitle: "Perfil Estatístico do Ciclista Paraense – 2026"
 author:
   - name: MÁRIO DIEGO ROCHA VALENTE
-    affiliation: (mario.valente@detran.pa.gov.br)
-    orcid: 0000-0002-1234-5678
-date: today
+    affiliation: (Analista de Trânsito – CONRE 8458)
+    email: mario.valente@detran.pa.gov.br
+    ORCID: 0000-0002-1234-5678
+lang: pt-BR
+
 format:
   typst:
-    toc: TRUE
-    toc-title: Sumário
-    toc-depth: 4
+    toc: true
+    toc-title: "Sumário"
+    toc-depth: 3
     number-sections: true
     section-numbering: "1.1"
+    papersize: a4
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 2.5cm
+    font:
+      body: "Libertinus Serif"
+      headings: "Libertinus Sans"
+      mono: "JetBrains Mono"
+    fontsize: 11pt
+    linestretch: 1.35
 ---
 
 
+
 ```{=typst}
-#v(3.5cm)
+#v(7cm)
 
 #align(center)[
   #image("detran2.jpg", width: 15%)
 
-  *Coordenadoria do Núcleo de Planejamento*  \
-  *Gerência de Estatística de Trânsito* 
+  *COORDENADORIA DE PLANEJAMENTO*  \
+  *GERÊNCIA DE ESTATÍSTICA DE TRÂNSITO* 
 ]
 ```
 
@@ -36,11 +51,11 @@ format:
 
 # INTRODUÇÃO
 
-A mobilidade urbana sustentável tem ocupado posição central no debate contemporâneo sobre planejamento urbano, políticas públicas e qualidade de vida nas cidades. Entre os diferentes modos de transporte, a bicicleta destaca-se por sua eficiência energética, baixo custo operacional e impactos positivos sobre a saúde individual e coletiva, sendo amplamente reconhecida como elemento estratégico para a redução de congestionamentos, emissões de poluentes e desigualdades no acesso à cidade (Pucher & Buehler, 2012; Banister, 2008).
+A mobilidade urbana sustentável ocupa posição central no debate contemporâneo sobre planejamento urbano, políticas públicas e qualidade de vida nas cidades. Entre os diversos modos de transporte, a bicicleta destaca-se por sua elevada eficiência energética, baixo custo operacional e impactos positivos sobre a saúde individual e coletiva, sendo amplamente reconhecida como instrumento estratégico para a redução de congestionamentos, emissões de poluentes e desigualdades no acesso ao espaço urbano (BANISTER, 2008; PUCHER; BUEHLER, 2012).
 
-No contexto brasileiro, embora se observe um avanço significativo na produção de estatísticas públicas relacionadas à mobilidade urbana impulsionado por levantamentos periódicos, pesquisas domiciliares e sistemas administrativos ainda persiste uma lacuna importante no que se refere à caracterização sistemática dos usuários de modos ativos, em especial dos ciclistas urbanos. Estudos nacionais tendem a tratar a bicicleta de forma agregada ou secundária, limitando a compreensão aprofundada de seus padrões de uso, motivações e barreiras estruturais (Vasconcellos, 2014).
+No contexto brasileiro, apesar dos avanços recentes na produção de estatísticas públicas sobre mobilidade — impulsionados por pesquisas domiciliares, levantamentos amostrais e sistemas administrativos — persiste uma lacuna relevante quanto à caracterização sistemática dos usuários de modos ativos, especialmente dos ciclistas urbanos. Grande parte dos estudos nacionais aborda a bicicleta de forma agregada ou secundária, o que limita a compreensão aprofundada de padrões de uso, motivações individuais e barreiras estruturais associadas à mobilidade ciclística (VASCONCELLOS, 2014).
 
-No estado do Pará, essa lacuna é ainda mais evidente. A ausência de bases de dados específicas e atualizadas sobre o perfil do ciclista dificulta o planejamento de políticas públicas orientadas por evidências, comprometendo a priorização de investimentos em infraestrutura cicloviária, segurança viária e integração modal. Assim, torna-se fundamental a realização de pesquisas de campo que produzam informações primárias, padronizadas e comparáveis, capazes de subsidiar decisões estratégicas no âmbito da gestão pública.
+No estado do Pará, essa lacuna é ainda mais pronunciada. A inexistência de bases de dados específicas e atualizadas sobre o perfil do ciclista urbano compromete o planejamento de políticas públicas orientadas por evidências, dificultando a priorização de investimentos em infraestrutura cicloviária, segurança viária e integração modal. Nesse sentido, a realização de pesquisas de campo com coleta de dados primários, padronizados e comparáveis, torna-se fundamental para subsidiar decisões estratégicas no âmbito da gestão pública.
 
 
 ## OBJETIVOS
@@ -55,7 +70,7 @@ Analisar o perfil sociodemográfico, os padrões de uso, as motivações e as co
 - Identificar os principais motivos associados às viagens realizadas por bicicleta;
 - Analisar o tempo de utilização da bicicleta como modo de transporte ao longo da vida dos respondentes;
 - Avaliar o uso e a disponibilidade de infraestrutura cicloviária nos trajetos realizados;
-- Descrever o perfil etário e de renda dos usuários de bicicleta;
+- Caracterizar o perfil etário, educacional e de renda dos usuários de bicicleta;
 - Produzir indicadores estatísticos que permitam comparações temporais e territoriais.
 
 
@@ -71,6 +86,9 @@ A população-alvo da pesquisa é composta por indivíduos com idade igual ou su
 
 Do ponto de vista conceitual, distingue-se a população-alvo conjunto teórico sobre o qual se deseja inferir — da população efetivamente investigada, limitada pelas condições operacionais da coleta. A inexistência de cadastros formais ou registros administrativos que identifiquem usuários de bicicleta inviabiliza a adoção de métodos clássicos de amostragem probabilística, como amostragem aleatória simples ou estratificada (Lohr, 2019).
 
+Os resultados da pesquisa serão interpretados sob a perspectiva de inferência analítica, buscando identificar padrões, associações e regularidades empíricas no uso da bicicleta, e não estimativas pontuais representativas da totalidade da população de ciclistas.
+
+
 
 ## Estratégia Amostral
 
@@ -80,6 +98,8 @@ Diante dessas limitações, será adotada uma estratégia de amostragem não pro
 ## Tamanho da Amostra
 
 O tamanho da amostra será definido a partir de estimativas do universo de ciclistas fornecidas por fontes secundárias, como o Sistema de Informações da Mobilidade Urbana da Associação Nacional de Transportes Públicos (ANTP), combinadas com critérios operacionais e recursos disponíveis. Embora não permita inferência estatística estrita para toda a população, essa abordagem possibilita a construção de diagnósticos robustos e indicativos para formulação de políticas públicas.
+
+Adota-se, para fins operacionais, um erro amostral máximo de 10 %, compatível com levantamentos exploratórios em populações de difícil mensuração, conforme práticas consolidadas em pesquisas de mobilidade urbana.
 
 
 
@@ -98,14 +118,14 @@ O tamanho da amostra será definido a partir de estimativas do universo de cicli
 
 ## Instrumento
 
-O instrumento de coleta consiste em um questionário estruturado, composto por perguntas fechadas, elaborado com base em referenciais metodológicos de pesquisas nacionais e internacionais sobre mobilidade ativa (Pucher & Buehler, 2017; Heinen, Van Wee & Maat, 2010). O questionário busca equilíbrio entre abrangência temática e simplicidade operacional, de modo a viabilizar sua aplicação em campo.
+O instrumento de coleta consiste em um questionário estruturado, composto predominantemente por perguntas fechadas, elaborado com base em referenciais metodológicos de pesquisas nacionais e internacionais sobre mobilidade ativa e comportamento do ciclista urbano (HEINEN; VAN WEE; MAAT, 2010; PUCHER; BUEHLER, 2017). O questionário foi concebido de modo a equilibrar abrangência temática e simplicidade operacional, viabilizando sua aplicação em campo.
 
 
 ```{=typst}
 
 #columns(2, gutter: 1.2cm)[ 
 
-1. *Qual o seu principal modo de locomoção?*
+1. *Qual o tipo de bicleta que você utiliza com mais frequência??*
    - ☐ Bicicleta Convencional   
    - ☐ Bicicleta Compartilhada
    - ☐ Bicicleta Elétrica
@@ -120,7 +140,7 @@ O instrumento de coleta consiste em um questionário estruturado, composto por p
 3. *Qual o principal destino da sua viagem atual?*
    - ☐ Trabalho
    - ☐ Estudo(escola/faculdade)
-   - ☐ Compras ou eerviços
+   - ☐ Compras ou serviços
    - ☐ Lazer ou atividades sociais
    - ☐ Saúde
 
@@ -152,7 +172,7 @@ O instrumento de coleta consiste em um questionário estruturado, composto por p
    - ☐ Mais de 1 Hora 
    
 8. *Quais Equipamentos de Segurança você costuma utilizar?*
-   - ☐ Capcete 
+   - ☐ Capacete
    - ☐ Luvas 
    - ☐ Colete refletivo
    - ☐ Óculos de proteção 
@@ -179,7 +199,7 @@ O instrumento de coleta consiste em um questionário estruturado, composto por p
    - ☐ Parda
    - ☐ Indígena
    
-12. *QuaL é o seu nível de Escolaridade?*
+12. *Qual é o seu nível de Escolaridade?*
    - ☐ Sem Instrução  
    - ☐ Ensino fundamental
    - ☐ Ensino médio
@@ -243,6 +263,9 @@ O instrumento de coleta consiste em um questionário estruturado, composto por p
    - ☐ Parcialmente  
    - ☐ Não 
 
+24. * Você passaria a utilizar mais a bicicleta se houvesse infraestrutura cicloviária adequada?*
+   - ☐ Sim
+   - ☐ Não
 
 ]
    
@@ -370,8 +393,11 @@ Algumas orientações podem ser úteis para garantir a qualidade das informaçõ
 - Procure não o interromper enquanto ele estiver falando, aguardando o informante concluir sua resposta para registrar a informação;
 - Esforce-se para não esboçar reações ante as respostas colhidas;
 - Efetue todas as perguntas e registre todas as respostas, verificando ao final da entrevista, se o questionário está totalmente preenchido.
-
-
+- Não formule as perguntas com suas próprias palavas, pois corre o risco de obter informações equivocadas e incorretas;
+- Evite os modismos, termos regionais, gírias e sujeições;
+- Não interprete as respostas com base em impressões pessoais.
+- Formuladas todas as perguntas, verifique se o questionário está devidamente preenchido. Caso existam algumas lacunas ou dúvidas no preenchimento do questionário, procure esclarecê-las imediatamente com o informante;
+- Sem mais, despeça-se, agradecendo-lhe a atenção e colaboração.
 
 
 

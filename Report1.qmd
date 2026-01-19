@@ -1,11 +1,10 @@
 ---
-title: "Pesquisa pela Mobilidade por Bicicleta"
-subtitle: "Perfil Estatístico do Ciclista Paraense – 2026"
+title: "PESQUISA PELA MOBILIDADE POR BICICLETA" 
 author:
   - name: MÁRIO DIEGO ROCHA VALENTE
     affiliation: (Analista de Trânsito – CONRE 8458)
     email: mario.valente@detran.pa.gov.br
-    ORCID: 0000-0002-1234-5678
+    note: "ORCID: 0000-0002-1234-5678"
 lang: pt-BR
 
 format:
@@ -22,30 +21,33 @@ format:
       left: 3cm
       right: 2.5cm
     font:
-      body: "Libertinus Serif"
-      headings: "Libertinus Sans"
+      body: "Times"
+      headings: "Times"
       mono: "JetBrains Mono"
     fontsize: 11pt
     linestretch: 1.35
 ---
 
+```{=typst}
 
-
-
-
-
-
+#align(center)[
+  #text(
+    size: 14pt, 
+    weight: "bold"
+  )[Perfil Estatístico do Ciclista Paraense – 2026]
+]
+```
 
 
 
 ```{=typst}
-#v(7cm)
+#v(7.7cm)
 
 #align(center)[
   #image("detran2.jpg", width: 15%)
 
-  *COORDENADORIA DE PLANEJAMENTO*  \
-  *GERÊNCIA DE ESTATÍSTICA DE TRÂNSITO* 
+  *Coordenaoria de Planejamento*  \
+  *Gerência de Estatística de Trânsito* 
 ]
 ```
 
@@ -91,7 +93,7 @@ Analisar o perfil sociodemográfico, os padrões de uso, as motivações e as co
 
 A população-alvo da pesquisa é composta por indivíduos com idade igual ou superior a 12 anos que utilizam a bicicleta como meio de transporte ao menos uma vez por semana em ambiente urbano. Incluem-se usuários que estejam, no momento da abordagem, utilizando, estacionando ou conduzindo a bicicleta a pé.
 
-Do ponto de vista conceitual, distingue-se a população-alvo conjunto teórico sobre o qual se deseja inferir — da população efetivamente investigada, limitada pelas condições operacionais da coleta. A inexistência de cadastros formais ou registros administrativos que identifiquem usuários de bicicleta inviabiliza a adoção de métodos clássicos de amostragem probabilística, como amostragem aleatória simples ou estratificada (Lohr, 2019).
+Do ponto de vista conceitual, distingue-se a população-alvo conjunto teórico sobre o qual se deseja inferir da população efetivamente investigada, limitada pelas condições operacionais da coleta. A inexistência de cadastros formais ou registros administrativos que identifiquem usuários de bicicleta inviabiliza a adoção de métodos clássicos de amostragem probabilística, como amostragem aleatória simples ou estratificada (Lohr, 2019).
 
 Os resultados da pesquisa serão interpretados sob a perspectiva de inferência analítica, buscando identificar padrões, associações e regularidades empíricas no uso da bicicleta, e não estimativas pontuais representativas da totalidade da população de ciclistas.
 
@@ -116,7 +118,7 @@ Adota-se, para fins operacionais, um erro amostral máximo de 10 %, compatível 
 
 
 
-## Instrumento
+## Instrumento de Pesquisa
 
 O instrumento de coleta consiste em um questionário estruturado, composto predominantemente por perguntas fechadas, elaborado com base em referenciais metodológicos de pesquisas nacionais e internacionais sobre mobilidade ativa e comportamento do ciclista urbano (HEINEN; VAN WEE; MAAT, 2010; PUCHER; BUEHLER, 2017). O questionário foi concebido de modo a equilibrar abrangência temática e simplicidade operacional, viabilizando sua aplicação em campo.
 
@@ -125,7 +127,7 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
 
 #columns(2, gutter: 1.2cm)[ 
 
-1. *Qual o tipo de bicleta que você utiliza com mais frequência??*
+1. *Qual o tipo de bicleta que você utiliza com mais frequência?*
    - ☐ Bicicleta Convencional   
    - ☐ Bicicleta Compartilhada
    - ☐ Bicicleta Elétrica
@@ -299,7 +301,7 @@ Estes padrões observados, ainda que provenientes de amostras não probabilísti
 
 A adoção de Regiões de Integração como estratos para a seleção dos municípios baseia-se em princípios metodológicos consolidados em amostragem estratificada: a estratificação por unidades territoriais homogêneas (regiões) reduz a variabilidade intraestrata e aumenta a comparabilidade entre diferentes contextos territoriais (LOHR, 2019).
 
-No caso do Pará, adotam-se três municípios por Região de Integração por meio de critérios combinados de:
+No caso do Pará, adotam-se quatro municípios por Região de Integração por meio de critérios combinados de:
 
 - Porte populacional, para assegurar a presença de cidades grandes, médias e pequenas em cada estrato;
 - Função urbana e polarização regional, de modo a incluir centros econômicos, polos administrativos e cidades com dinâmica demográfica relevante;
@@ -319,34 +321,34 @@ library(gt)
 
 tabela_municipios <- tibble(
   `Região de Integração` = c(
-    "Metropolitana",
-    "Guamá",
-    "Caeté",
-    "Tocantins",
-    "Lago de Tucuruí",
-    "Carajás",
-    "Araguaia",
-    "Xingu",
-    "Tapajós",
-    "Baixo Amazonas",
-    "Marajó",
-    "Guajará"
-  ),
+    "GUAJARÁ",
+    "GUAMÁ",
+    "RIO CAETÉ",
+    "TOCANTINS",
+    "LAGO DE TUCURUÍ",
+    "CARAJÁS",
+    "ARAGUAIA",
+    "XINGU",
+    "TAPAJÓS",
+    "BAIXO AMAZONAS",
+    "MARAJÓ",
+    "RIO CAPIM"
+    ),
   Municípios = c(
-    "Belém; Ananindeua; Marituba",
-    "Castanhal; Capanema; São Miguel do Guamá",
-    "Bragança; Augusto Corrêa; Viseu",
-    "Abaetetuba; Cametá; Barcarena",
-    "Tucuruí; Breu Branco; Novo Repartimento",
-    "Marabá; Parauapebas; Canaã dos Carajás",
-    "Redenção; Xinguara; Conceição do Araguaia",
-    "Altamira; Senador José Porfírio; Vitória do Xingu",
-    "Itaituba; Trairão; Jacareacanga",
-    "Santarém; Oriximiná; Alenquer",
-    "Breves; Portel; Soure",
-    "Benevides; Santa Izabel do Pará; Santo Antônio do Tauá"
+    "Belém; Ananindeua; Benevides; Marituba",
+    "Castanhal; Santa Isabel; São Miguel do Guamá; Vigia",
+    "Bragança; Capanema; Salinópolis; Viseu",
+    "Abaetetuba; Barcarena; Cametá; Tailândia",
+    "Tucuruí; Breu Branco; Novo Repartimento; Jacundá",
+    "Marabá; Parauapebas; Canaã dos Carajás; Curionópolis",
+    "Redenção; Xinguara; Conceição do Araguaia; Ourilândia",
+    "Altamira; Medicilândia; Vitória do Xingu; Porto de Moz",
+    "Itaituba; Trairão, Rurópolis; Novo Progresso",
+    "Santarém; Òbidos, Oriximiná; Monte Alegre",
+    "Breves; Portel; Salvaterra; Soure",
+    "Dom Elizeu; Mãe do Rio; Paragominas; Rondon do Pará"
+    )
   )
-)
 
 tabela_municipios |>
   gt() |>
@@ -359,7 +361,7 @@ tabela_municipios |>
     Municípios ~ px(420)
   ) |>
   tab_source_note(
-    source_note = md("Base de Calaculo: ANTP/IBGE.")
+    source_note = md("Base de Calaculo: ANTP/IBGE/DETRAN-PA.")
   ) |>
   tab_style(
     style = cell_text(weight = "bold"),
@@ -421,6 +423,8 @@ Algumas orientações podem ser úteis para garantir a qualidade das informaçõ
 
 
 
+
+
 # REFERÊNCIAS BIBLIOGRÁFICAS
 
 
@@ -444,5 +448,24 @@ STOPHER, Peter R.; JONES, Peter M. Transport survey quality and innovation. Oxfo
 
 VASCONCELLOS, Eduardo Alcântara de. Mobilidade urbana e cidadania. São Paulo: SENAC, 2014
 
+
+
+```{=typst}
+
+#set page(
+  footer: align(
+    center,
+    [
+      #line(length: 100%, stroke: 0.5pt)
+      #v(0.2cm)
+      #text(size: 9pt)[
+        DETRAN–PA • Pesquisa pela Mobilidade por Bicicleta • 2026 
+      ]
+    ]
+  )
+)
+
+
+```
 
 

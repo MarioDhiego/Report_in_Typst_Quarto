@@ -1,16 +1,15 @@
 ---
-title: "PESQUISA PELA MOBILIDADE POR BICICLETA" 
+title: ""
 author:
-  - name: MÁRIO DIEGO ROCHA VALENTE
-    affiliation: (Analista de Trânsito – CONRE 8458)
-    email: mario.valente@detran.pa.gov.br
+  - name: 
+    affiliation: 
+    email: 
     note: "ORCID: 0000-0002-1234-5678"
 lang: pt-BR
 
 format:
   typst:
-    toc: true
-    toc-title: "Sumário"
+    toc: false
     toc-depth: 3
     number-sections: true
     section-numbering: "1.1"
@@ -21,41 +20,101 @@ format:
       left: 3cm
       right: 2.5cm
     font:
-      body: "Times"
-      headings: "Times"
+      body: "Times New Roman"
+      headings: "Times New Roman"
       mono: "JetBrains Mono"
-    fontsize: 11pt
-    linestretch: 1.35
+    fontsize: 12pt
+    include-in-header: header.typ
 ---
 
-```{=typst}
-
-#align(center)[
-  #text(
-    size: 14pt, 
-    weight: "bold"
-  )[Perfil Estatístico do Ciclista Paraense – 2026]
-]
-```
-
-
 
 ```{=typst}
-#v(7.7cm)
+
+#set page(numbering: none)
 
 #align(center)[
+
+  #line(length: 100%)
   #image("detran2.jpg", width: 15%)
+  #v(1cm)
 
-  *Coordenaoria de Planejamento*  \
-  *Gerência de Estatística de Trânsito* 
+  #text(size: 18pt, weight: "bold")[
+    #smallcaps[PESQUISA PELA MOBILIDADE POR BICICLETA]
+  ]
+
+  #v(0.0cm)
+  #text(size: 16pt, weight: "bold")[Perfil Estatístico do Ciclista Paraense – 2026]
+ 
+  #v(5cm)
+
+  #text(size: 14pt, weight: "bold")[
+    Mário Diego Rocha Valente
+  ]
+  \
+  
+  #text(size: 14pt)[
+    (Analista de Trânsito – CONRE 8458)
+  ]
+  \
+  #text(size: 14pt)[
+    mario.valente\@detran.pa.gov.br
+  ]
 ]
+
+#pagebreak()
+
+#set page(numbering: "1")
 ```
 
+
+
+```{=typst}
+#line(length: 100%)
+
+#align(center)[
+#outline(title: "SUMÁRIO")
+]
+
+ #v(2cm)
+
+#pagebreak()
+
+```
+
+
+
+
+```{=typst}
+#line(length: 100%)
+```
+
+
+
+```{=typst}
+
+
+#align(center)[
+  #text(12pt, weight: "bold")[RESUMO EXECUTIVO]
+]
+
+#v(0.3cm)
+```
+
+
+
+A presente pesquisa tem como objetivo analisar o perfil sociodemográfico, os padrões de uso, as motivações e as condições de deslocamento dos usuários de bicicleta no Estado do Pará, com vistas a subsidiar a formulação de políticas públicas orientadas por evidências na área de mobilidade urbana sustentável. Considerando a inexistência de bases administrativas consolidadas sobre ciclistas urbanos no contexto estadual, adotou-se metodologia baseada na coleta de dados primários por meio de questionário estruturado, aplicado em campo mediante estratégia de amostragem não probabilística por interceptação em pontos estratégicos da malha urbana. O instrumento contempla variáveis relativas à frequência e finalidade das viagens, tempo de utilização do modal, percepção de segurança viária, uso de infraestrutura cicloviária, ocorrência de acidentes e situações de risco, bem como características demográficas e socioeconômicas dos respondentes. Para fins operacionais, estabelece-se erro amostral máximo de 10\%, compatível com estudos exploratórios em populações de difícil mensuração. Espera-se que os resultados produzam diagnóstico inédito sobre o ciclista urbano paraense, contribuindo para o planejamento de ações voltadas à mobilidade ativa, segurança no trânsito e ampliação da infraestrutura cicloviária em diferentes contextos territoriais do estado.
+
+**Palavras-chave**: Mobilidade urbana; Bicicleta; Segurança viária; Amostragem; Políticas públicas; Pará.
 
 
 ```{=typst}
 #pagebreak()
+
+#line(length: 100%)
 ```
+
+
+
 
 
 # INTRODUÇÃO
@@ -85,6 +144,8 @@ Analisar o perfil sociodemográfico, os padrões de uso, as motivações e as co
 
 ```{=typst}
 #pagebreak()
+
+#line(length: 100%)
 ```
 
 
@@ -108,13 +169,16 @@ Diante dessas limitações, será adotada uma estratégia de amostragem não pro
 
 O tamanho da amostra será definido a partir de estimativas do universo de ciclistas fornecidas por fontes secundárias, como o Sistema de Informações da Mobilidade Urbana da Associação Nacional de Transportes Públicos (ANTP), combinadas com critérios operacionais e recursos disponíveis. Embora não permita inferência estatística estrita para toda a população, essa abordagem possibilita a construção de diagnósticos robustos e indicativos para formulação de políticas públicas.
 
-Adota-se, para fins operacionais, um erro amostral máximo de 10 %, compatível com levantamentos exploratórios em populações de difícil mensuração, conforme práticas consolidadas em pesquisas de mobilidade urbana.
+Adota-se, para fins operacionais, um **erro amostral máximo de 10 %**, compatível com levantamentos exploratórios em populações de difícil mensuração, conforme práticas consolidadas em pesquisas de mobilidade urbana.
 
 
 
 ```{=typst}
 #pagebreak()
+
+#line(length: 100%)
 ```
+
 
 
 
@@ -127,96 +191,44 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
 
 #columns(2, gutter: 1.2cm)[ 
 
-1. *Qual o tipo de bicleta que você utiliza com mais frequência?*
+01. *Qual o tipo de Bicicleta que você utiliza com mais Frequência?*
    - ☐ Bicicleta Convencional   
    - ☐ Bicicleta Compartilhada
    - ☐ Bicicleta Elétrica
    - ☐ Patinete
 
-2. *Com que frequência você utiliza a bicicleta como meio de transporte?*
-   - ☐ 1 a 2 dias por semana
-   - ☐ 3 a 4 dias por semana
-   - ☐ 5 a 6 dias por semana
-   - ☐ Todos os dias
-
-3. *Qual o principal destino da sua viagem atual?*
-   - ☐ Trabalho
-   - ☐ Estudo(escola/faculdade)
-   - ☐ Compras ou serviços
-   - ☐ Lazer ou atividades sociais
-   - ☐ Saúde
-
-4. *Há quanto tempo você utiliza a bicicleta como meio de transporte?*
-   - ☐ Menos de 6 meses
-   - ☐ 6 meses a 1 ano
-   - ☐ 1 a 2 anos
-   - ☐ 2 a 3 anos
-   - ☐ 3 a 4 anos
-   - ☐ Mais de 5 anos
-    
-5. *Qual é o principal Motivo para uso da bicicleta como meio de transporte?*
-   - ☐ Economia Financeira
-   - ☐ Rapidez e Praticidade
-   - ☐ Benefícios à saúde
-   - ☐ Sustentabilidade ambiental
-   - ☐ Outro
-   
-6. *No trajeto que você realiza habitualmente, há utilização de infraestrutura cicloviária?*
-   - ☐ Sim, em todo o trajeto
-   - ☐ Sim, em parte do trajeto
-   - ☐ Não há infraestrutura cicloviária
- 
-7. *Quanto tempo, em média, Você leva no trajeto + frequente realizado de Bicicleta?*
-   - ☐ Até 10 minutos   
-   - ☐ Até 20 minutos  
-   - ☐ Até 30 minutos 
-   - ☐ Até 60 minutos 
-   - ☐ Mais de 1 Hora 
-   
-8. *Quais Equipamentos de Segurança você costuma utilizar?*
-   - ☐ Capacete
-   - ☐ Luvas 
-   - ☐ Colete refletivo
-   - ☐ Óculos de proteção 
-   - ☐ Espelho retrovisor
-   - ☐ Campainha (buzina)
-   - ☐ Refletores (olho de gato)     
-
-9. *Qual é o seu gênero?*
+02. *Qual é o seu Gênero?*
    - ☐ Masculino
    - ☐ Feminino
-   - ☐ Outros
-   
-10. *Qual é a sua faixa etária?*
+   - ☐ Outro
+
+03. *Qual é a sua Faixa Etária?*
    - ☐ 12 a 18 anos
    - ☐ 19 a 29 anos
    - ☐ 30 a 49 anos
    - ☐ 50 a 64 anos
    - ☐ 65 anos ou mais
    
-11. *Como você se autodeclara em relação à cor ou raça?*
-   - ☐ Branco   
+04. *Como você se Autodeclara em relação à Cor/Raça?*
    - ☐ Preta
-   - ☐ Amarela
    - ☐ Parda
+   - ☐ Amarela
    - ☐ Indígena
-\
-\
-\
-12. *Qual é o seu nível de Escolaridade?*
-   - ☐ Sem Instrução  
-   - ☐ Ensino fundamental
-   - ☐ Ensino médio
-   - ☐ Ensino superior
-   - ☐ Pós-graduação
-      
-13. *Qual é a sua renda familiar mensal aproximada?*
-   - ☐ Até 1 salário mínimo
-   - ☐ Entre 1 e 3 salários mínimos
-   - ☐ Entre 3 e 5 salários mínimos
-   - ☐ Acima de 6 salários mínimos
+   - ☐ Branca
 
-14. *Qual a sua Profissão?*
+05. *Qual é o seu Nível de Escolaridade?*
+   - ☐ Sem Instrução  
+   - ☐ Ensino Fundamental
+   - ☐ Ensino Médio
+   - ☐ Ensino Superior
+   - ☐ Pós-Graduação
+\
+\
+\
+\
+\
+
+06. *Qual a sua Profissão?*
    - ☐ Trabalhador Formal
    - ☐ Trabalhador Informal
    - ☐ Estudante
@@ -224,60 +236,140 @@ O instrumento de coleta consiste em um questionário estruturado, composto predo
    - ☐ Aposentado
    - ☐ Desempregado
    - ☐ Outro
-   
-15. *Você já sofreu algum tipo de assédio ou importunação enquanto utilizava a bicicleta?*
-   - ☐ Sim
-   - ☐ Não
 
-16. *Você já teve sua bicicleta, ou partes dela, furtadas ou roubadas?*
-   - ☐ Sim
-   - ☐ Não
+07. *Qual é a sua Renda Familiar mensal aproximada?*
+   - ☐ Sem Renda
+   - ☐ Menos 1 salário mínimo
+   - ☐ De 1 a 3 salários mínimos
+   - ☐ De 4 a 6 salários mínimos
+   - ☐ Acima de 6 salários mínimos
+
+08. *Com que frequência você utiliza a bicicleta como meio de transporte?*
+   - ☐ 1 a 2 dias por semana
+   - ☐ 3 a 4 dias por semana
+   - ☐ 5 a 6 dias por semana
+   - ☐ Todos os dias
+
+09. *Quanto tempo, em média, Você leva no trajeto + frequente realizado de Bicicleta?*
+   - ☐ Até 10 minutos   
+   - ☐ Até 20 minutos  
+   - ☐ Até 30 minutos 
+   - ☐ Até 60 minutos 
+   - ☐ Mais de 1 Hora 
+\
+\
+\
+\
+\
+
+10. *Há quanto tempo você utiliza a bicicleta como meio de transporte?*
+   - ☐ Menos de 6 meses
+   - ☐ 6 meses a 1 ano
+   - ☐ 1 a 2 anos
+   - ☐ 2 a 3 anos
+   - ☐ 3 a 4 anos
+   - ☐ Mais de 5 anos
+
+11. *Qual o principal destino da sua viagem atual?*
+   - ☐ Trabalho
+   - ☐ Estudo(escola/faculdade)
+   - ☐ Compras ou serviços
+   - ☐ Lazer ou atividades sociais
+   - ☐ Saúde
    
-17. *Você já sofreu ou esteve envolvido em acidentes de trânsito enquanto pedalava?*
-   - ☐ Sim
-   - ☐ Não
+12. *Qual é o principal Motivo para uso da bicicleta como meio de transporte?*
+   - ☐ Economia Financeira
+   - ☐ Rapidez e Praticidade
+   - ☐ Benefícios à saúde
+   - ☐ Sustentabilidade ambiental
+   - ☐ Outro
    
-18. *Você combina a bicicleta com outro meio de transporte?*
+13. *Você combina a bicicleta com outro meio de transporte?*
    - ☐ Não
    - ☐ Sim, com transporte coletivo
-   - ☐ Sim, com transporte individual
-   - ☐ Sim, com caminhada
-
-19. *Você tem conhecimento da existência de sistema de bicicleta Compartilhada em sua cidade?*
-   - ☐ Sim
-   - ☐ Não  
+   - ☐ Sim, com transporte Próprio (Carro, Moto, etc)
+   - ☐ Sim, com caminhada   
    
-20. *Como você avalia a segurança viária no seu trajeto + frequente?*
-   - ☐ Muito segura   
-   - ☐ Segura
-   - ☐ Pouca segura
-   - ☐ Nada segura
+14. *Quais Equipamentos de Segurança você costuma utilizar? (permitido marcar + 1)*
+   - ☐ Capacete
+   - ☐ Luvas 
+   - ☐ Colete refletivo
+   - ☐ Óculos de proteção 
+   - ☐ Espelho retrovisor
+   - ☐ Campainha (buzina)
+   - ☐ Refletores (olho de gato)       
+   
+\
+\
+\
+   
 
-21. *Qual o principal risco percebido ao pedalar?*
-   - ☐ Velocidade dos Veículos 
-   - ☐ Falta de infraestrutura
-   - ☐ Iluminação inadequada 
-   - ☐ Criminalidade
-   - ☐ Outro
-
-22. *Após a pandemia da COVID-19, você passou a utilizar mais a bicicleta?*
+15. *No trajeto que você realiza habitualmente, há utilização de infraestrutura cicloviária?*
+   - ☐ Sim, em todo o trajeto
+   - ☐ Sim, em parte do trajeto
+   - ☐ Não há infraestrutura cicloviária
+ 
+16. *Você já Sofreu ou esteve envolvido em Acidentes de Trânsito enquanto Pedalava?*
    - ☐ Sim
    - ☐ Não
-   - ☐ Não utilizava antes
+   
+17. *Como você Avalia a Segurança Viária no seu Trajeto + Frequente?*
+   - ☐ Muito Segura   
+   - ☐ Segura
+   - ☐ Pouco Segura
+   - ☐ Nada Segura   
+   
+18. *Você já teve sua Bicicleta, ou Partes dela, Furtadas ou Roubadas?*
+   - ☐ Sim
+   - ☐ Não   
+   
 
+19. *Qual o principal risco percebido ao pedalar? (permitido marcar + 1)*
+   - ☐ Velocidade dos Veículos 
+   - ☐ Falta de Infraestrutura
+   - ☐ Iluminação Inadequada 
+   - ☐ Criminalidade
+   - ☐ Outro
+   
+20. *Você tem conhecimento da existência de Sistema de Bicicleta Compartilhada em sua Cidade?*
+   - ☐ Sim
+   - ☐ Não  
 
-23. *Você considera que o poder público incentiva o uso da bicicleta?*
+\
+\
+
+\
+\
+
+21. *Após a pandemia da COVID-19, você passou a utilizar mais a bicicleta?*
+   - ☐ Sim
+   - ☐ Não
+   - ☐ Não Utilizava Antes  
+   
+22. *Você considera que o Poder Público Incentiva o Uso da Bicicleta?*
    - ☐ Sim
    - ☐ Parcialmente  
    - ☐ Não 
 
-24. * Você passaria a utilizar mais a bicicleta se houvesse infraestrutura cicloviária adequada?*
+23. *Você acha que em sua cidade existe Infraestrutura cicloviária adequada?*
    - ☐ Sim
    - ☐ Não
 
+
+24. *Você tem Conhecimento Básico sobre Comportamento Seguro no Trânsito, quanto ao Sentido da Via indicado para Ciclistas*
+   - ☐ Sim
+   - ☐ Não
 ]
    
 ```
+
+
+```{=typst}
+#pagebreak()
+
+#line(length: 100%)
+```
+
 
 
 ## Dimensão Nacional da Mobilidade por Bicicleta
@@ -295,7 +387,14 @@ Levantamentos sobre o perfil do ciclista brasileiro em contextos urbanos demonst
 
 Estes padrões observados, ainda que provenientes de amostras não probabilísticas ou de cidades específicas, corroboram a necessidade de diversificar a amostra de municípios em termos de contexto urbano, densidade populacional e estrutura de mobilidade, para que a pesquisa estadual no Pará capture tanto experiências de uso consolidado como situações de baixo uso potencial.
 
-\newpage
+
+```{=typst}
+#pagebreak()
+
+#line(length: 100%)
+```
+
+
 
 ## Critérios de Seleção de Municípios
 
@@ -335,18 +434,18 @@ tabela_municipios <- tibble(
     "RIO CAPIM"
     ),
   Municípios = c(
-    "Belém; Ananindeua; Benevides; Marituba",
-    "Castanhal; Santa Isabel; São Miguel do Guamá; Vigia",
-    "Bragança; Capanema; Salinópolis; Viseu",
-    "Abaetetuba; Barcarena; Cametá; Tailândia",
-    "Tucuruí; Breu Branco; Novo Repartimento; Jacundá",
-    "Marabá; Parauapebas; Canaã dos Carajás; Curionópolis",
-    "Redenção; Xinguara; Conceição do Araguaia; Ourilândia",
-    "Altamira; Medicilândia; Vitória do Xingu; Porto de Moz",
-    "Itaituba; Trairão, Rurópolis; Novo Progresso",
-    "Santarém; Òbidos, Oriximiná; Monte Alegre",
-    "Breves; Portel; Salvaterra; Soure",
-    "Dom Elizeu; Mãe do Rio; Paragominas; Rondon do Pará"
+    "Belém; Ananindeua; Marituba",
+    "Castanhal; Santa Isabel; Vigia",
+    "Bragança; Capanema; Salinópolis",
+    "Abaetetuba; Barcarena; Tailândia",
+    "Breu Branco; Tucuruí; Novo Repartimento",
+    "Curionópolis, Marabá; Parauapebas",
+    "Floresta do Araguaia; Redenção; Xinguara;",
+    "Altamira; Medicilândia; Vitória do Xingu",
+    "Itaituba; Rurópolis; Trairão;",
+    "Belterra; Mojuí dos Campos; Santarém",
+    "Afuá; Breves",
+    "Mãe do Rio; Paragominas; São Miguel do Guamá"
     )
   )
 
@@ -361,7 +460,7 @@ tabela_municipios |>
     Municípios ~ px(420)
   ) |>
   tab_source_note(
-    source_note = md("Base de Calaculo: ANTP/IBGE/DETRAN-PA.")
+    source_note = md("Base de Cálculo: ANTP/IBGE/DETRAN-PA.")
   ) |>
   tab_style(
     style = cell_text(weight = "bold"),
@@ -374,6 +473,126 @@ tabela_municipios |>
 
 ```{=typst}
 #pagebreak()
+
+#line(length: 100%)
+```
+
+
+
+
+```{=typst}
+#set text(size: 12pt)
+
+
+// Título da tabela
+#align(left)[
+  #text(11pt, weight: "bold")[
+    Tabela – Tamanho de Amostra por Região de Integração e Municípios no Estado do Pará, 2026
+  ]
+]
+
+#v(6pt)
+
+#table(
+  columns: (3fr, 2fr, 1fr),
+  align: (left, left, center),
+  stroke: none,   // remove grade padrão
+  inset: (x: 6pt, y: 4pt),
+
+  // Cabeçalho
+  table.hline(stroke: 1.5pt),
+  [*REGIÃO DE INTEGRAÇÃO*], [*MUNICÍPIO*], [*AMOSTRA*],
+  table.hline(stroke: 0.8pt),
+
+  // Guajará
+  [],          [Ananindeua], [196],
+  [*Guajará*], [Belém],      [178],
+  [],          [Marituba],   [30],
+  table.hline(stroke: 1pt),
+
+  // Guamá
+  [],        [Castanhal],    [77],
+  [*Guamá*], [Santa Isabel], [25],
+  [],        [Vigia],        [23],
+  table.hline(stroke: 1pt),
+
+  // Rio Caeté
+  [],            [Bragança],    [30],
+  [*Rio Caeté*], [Capanema],    [43],
+  [],            [Salinópolis], [27],
+  table.hline(stroke: 1pt),
+
+  // Tocantins
+  [],            [Abaetetuba], [25],
+  [*Tocantins*], [Barcarena],  [34],
+  [],            [Tailândia],  [21],
+  table.hline(stroke: 1pt),
+
+  // Lago de Tucuruí
+  [],                  [Breu Branco],       [23],
+  [*Lago de Tucuruí*], [Tucuruí],           [36],
+  [],                  [Novo Repartimento], [22],
+  table.hline(stroke: 1pt),
+
+  // Carajás
+  [],          [Curionópolis], [22],
+  [*Carajás*], [Marabá],       [143],
+  [],          [Parauapebas],  [131],
+  table.hline(stroke: 1pt),
+
+  // Araguaia
+  [],           [Floresta do Araguaia], [15],
+  [*Araguaia*], [Redenção],             [59],
+  [],           [Xinguara],             [31],
+  table.hline(stroke: 1pt),
+
+  // Xingu
+  [],        [Altamira],         [53],
+  [*Xingu*], [Medicilândia],     [21],
+  [],        [Vitória do Xingu], [19],
+  table.hline(stroke: 1pt),
+
+  // Tapajós
+  [],          [Itaituba],  [50],
+  [*Tapajós*], [Rurópolis], [24],
+  [],          [Trairão],   [23],
+  table.hline(stroke: 1pt),
+
+  // Baixo Amazonas
+  [],                 [Belterra],         [22],
+  [*Baixo Amazonas*], [Mojuí dos Campos], [21],
+  [],                 [Santarém],         [130],
+  table.hline(stroke: 1pt),
+
+  // Marajó
+  [],         [Afuá], [25],
+  [*Marajó*], [],     [],
+  [],         [Breves], [45],
+  table.hline(stroke: 1pt),
+
+  // Rio Capim
+  [],            [Mãe do Rio],          [28],
+  [*Rio Capim*], [Paragominas],         [54],
+  [],            [São Miguel do Guamá], [29],
+
+  table.hline(stroke: 1.5pt),
+)
+
+#v(6pt)
+
+#align(left)[
+  #text(11pt)[*Base de Cálculo:* IBGE/DETRAN-PA, 2026.]
+]
+```
+
+
+
+
+
+```{=typst}
+#pagebreak()
+
+#line(length: 100%)
 ```
 
 
@@ -417,15 +636,26 @@ Algumas orientações podem ser úteis para garantir a qualidade das informaçõ
 
 
 
+
+
+
+
+
+
+
+
+
+
 ```{=typst}
 #pagebreak()
+
+#line(length: 100%)
 ```
 
 
 
-
-
 # REFERÊNCIAS BIBLIOGRÁFICAS
+
 
 
 BANISTER, David. The sustainable mobility paradigm. Transport Policy, v. 15, n. 2, p. 73–80, 2008.
@@ -449,23 +679,5 @@ STOPHER, Peter R.; JONES, Peter M. Transport survey quality and innovation. Oxfo
 VASCONCELLOS, Eduardo Alcântara de. Mobilidade urbana e cidadania. São Paulo: SENAC, 2014
 
 
-
-```{=typst}
-
-#set page(
-  footer: align(
-    center,
-    [
-      #line(length: 100%, stroke: 0.5pt)
-      #v(0.2cm)
-      #text(size: 9pt)[
-        DETRAN–PA • Pesquisa pela Mobilidade por Bicicleta • 2026 
-      ]
-    ]
-  )
-)
-
-
-```
 
 

@@ -1,0 +1,206 @@
+---
+title: ""
+author:
+  - name: 
+    affiliation: 
+    email: 
+    note: "ORCID: 0000-0002-1234-5678"
+lang: pt-BR
+
+format:
+  typst:
+    toc: false
+    toc-depth: 3
+    number-sections: true
+    section-numbering: "1.1"
+    papersize: a4
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 3cm
+      right: 2.5cm
+    font:
+      body: "Times New Roman"
+      headings: "Times New Roman"
+      mono: "JetBrains Mono"
+    fontsize: 12pt
+    include-in-header: header.typ
+---
+  
+  
+  
+  
+## Questionário nº: _______            Município: ____________________
+
+
+```{=typst}
+
+
+#v(0.3cm)
+
+#columns(2, gutter: 1.2cm)[ 
+
+01. *Qual o tipo de bicicleta que você utiliza com mais frequência?*
+  - ☐ Bicicleta convencional   
+  - ☐ Bicicleta compartilhada
+  - ☐ Bicicleta elétrica
+  - ☐ Patinete
+
+02. *Qual é o seu gênero?*
+  - ☐ Masculino
+  - ☐ Feminino
+  - ☐ Outro
+
+03. *Qual é a sua faixa etária?*
+  - ☐ 12 a 18 anos
+  - ☐ 19 a 29 anos
+  - ☐ 30 a 49 anos
+  - ☐ 50 a 64 anos
+  - ☐ 65 anos ou mais
+
+04. *Como você se autodeclara em relação à cor/raça?*
+  - ☐ Preta
+  - ☐ Parda
+  - ☐ Amarela
+  - ☐ Indígena
+  - ☐ Branca
+
+05. *Qual é o seu nível de escolaridade?*
+  - ☐ Sem instrução  
+  - ☐ Ensino fundamental
+  - ☐ Ensino médio
+  - ☐ Ensino superior
+  - ☐ Pós-graduação
+
+06. *Qual é a sua ocupação principal?*
+  - ☐ Trabalhador formal
+  - ☐ Trabalhador informal
+  - ☐ Estudante
+  - ☐ Autônomo
+  - ☐ Aposentado
+  - ☐ Desempregado
+  - ☐ Outro
+
+\
+
+07. *Qual é a sua renda familiar mensal aproximada?*
+  - ☐ Sem renda
+  - ☐ Até 1 salário mínimo
+  - ☐ De 1 a 3 salários mínimos
+  - ☐ De 4 a 6 salários mínimos
+  - ☐ Acima de 6 salários mínimos
+
+08. *Com que frequência você utiliza a bicicleta como meio de transporte?*
+  - ☐ 1 a 2 dias por semana
+  - ☐ 3 a 4 dias por semana
+  - ☐ 5 a 6 dias por semana
+  - ☐ Todos os dias
+
+09. *Quanto tempo, em média, você leva no trajeto mais frequente realizado de bicicleta?*
+  - ☐ Até 10 minutos   
+  - ☐ Até 20 minutos  
+  - ☐ Até 30 minutos 
+  - ☐ Até 60 minutos 
+  - ☐ Mais de 1 hora 
+
+10. *Há quanto tempo você utiliza a bicicleta como meio de transporte?*
+  - ☐ Menos de 6 meses
+  - ☐ De 6 meses a 1 ano
+  - ☐ De 1 a 2 anos
+  - ☐ De 2 a 3 anos
+  - ☐ De 3 a 4 anos
+  - ☐ Mais de 5 anos
+
+11. *Qual é o principal destino da sua viagem atual?*
+  - ☐ Trabalho
+  - ☐ Estudo (escola/faculdade)
+  - ☐ Compras ou serviços
+  - ☐ Lazer ou atividades sociais
+  - ☐ Saúde
+
+\
+\
+
+12. *Qual é o principal motivo para o uso da bicicleta como meio de transporte?*
+  - ☐ Economia financeira
+  - ☐ Rapidez e praticidade
+  - ☐ Benefícios à saúde
+  - ☐ Sustentabilidade ambiental
+  - ☐ Outro
+
+13. *Você combina a bicicleta com outro meio de transporte?*
+  - ☐ Não
+  - ☐ Sim, com transporte coletivo
+  - ☐ Sim, com transporte individual (carro, moto, etc.)
+  - ☐ Sim, com caminhada   
+
+14. *Quais equipamentos de segurança você costuma utilizar? (pode marcar mais de uma opção)*
+  - ☐ Capacete
+  - ☐ Luvas 
+  - ☐ Colete refletivo
+  - ☐ Óculos de proteção 
+  - ☐ Espelho retrovisor
+  - ☐ Campainha (buzina)
+  - ☐ Refletores (olho de gato)       
+
+15. *No trajeto que você realiza habitualmente, há utilização de infraestrutura cicloviária?*
+  - ☐ Sim, em todo o trajeto
+  - ☐ Sim, em parte do trajeto
+  - ☐ Não há infraestrutura cicloviária
+
+16. *Você já sofreu ou esteve envolvido em acidente de trânsito enquanto pedalava?*
+  - ☐ Sim
+  - ☐ Não
+
+17. *Como você avalia a segurança viária no seu trajeto mais frequente?*
+  - ☐ Muito segura   
+  - ☐ Segura
+  - ☐ Pouco segura
+  - ☐ Nada segura   
+
+
+18. *Você já teve sua bicicleta (ou partes dela) furtada ou roubada?*
+  - ☐ Sim
+  - ☐ Não   
+
+19. *Qual o principal risco percebido ao pedalar? (pode marcar mais de uma opção)*
+  - ☐ Velocidade dos veículos 
+  - ☐ Falta de infraestrutura 
+  - ☐ Iluminação inadequada 
+  - ☐ Criminalidade
+  - ☐ Outro
+
+20. *Você tem conhecimento da existência de sistema de bicicleta compartilhada em sua cidade?*
+  - ☐ Sim
+  - ☐ Não  
+
+21. *Após a pandemia da COVID-19, você passou a utilizar mais a bicicleta?*
+  - ☐ Sim
+  - ☐ Não
+  - ☐ Não utilizava antes  
+
+22. *Você considera que o poder público incentiva o uso da bicicleta?*
+  - ☐ Sim
+  - ☐ Parcialmente  
+  - ☐ Não 
+
+23. *Você considera que há infraestrutura cicloviária adequada em sua cidade?*
+  - ☐ Sim
+  - ☐ Não
+
+24. *Você possui conhecimento básico sobre comportamento seguro no trânsito para ciclistas (sentido da via)?*
+  - ☐ Sim
+  - ☐ Não
+
+]
+
+
+
+
+
+```
+
+
+
+
+
